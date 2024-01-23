@@ -25,6 +25,8 @@ Add some logs to the fire.
 
 :flag_ca: Proudly Canadian.
 
+I game too much.
+
 
 {{< list title="Recent Posts" limit=5 where="Type" value="post" >}}
 
