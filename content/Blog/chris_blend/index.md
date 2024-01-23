@@ -25,11 +25,9 @@ I am writing this representing the blendOS team in response to a recent video by
 The [video in question](https://youtu.be/k1RP_TCWeNU) (skip to 4:44):
 
 
-<!-- Piped better than youtube's trackers -->
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/k1RP_TCWeNU?amp;start=284" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://youtube-nocookie.com/embed/k1RP_TCWeNU?t=286" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+
 
 
 
