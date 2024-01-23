@@ -2,6 +2,7 @@
 title = ''
 date = 2024-01-23T08:24:30-05:00
 draft = false
+description = "My socials"
 layout = 'simple'
 +++
 

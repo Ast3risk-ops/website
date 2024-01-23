@@ -2,6 +2,7 @@
 title = 'What is BlendOS?'
 date = 2023-08-27T20:34:00-04:00
 draft = false
+description = "The blendOS team's response to Chris Titus Tech's recent video"
 tags = ['BlendOS', 'linux']
 type = 'post'
 +++

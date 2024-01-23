@@ -3,6 +3,7 @@ title = 'EXYQ'
 date = 2023-08-24T10:21:37-04:00
 draft = false
 type = 'post'
+description = "My time working with EXYQ"
 tags = ['Personal Experience']
 +++
 {{< alert icon="clock-rotate-left" cardColor="#e63946" iconColor="#1d3557">}}

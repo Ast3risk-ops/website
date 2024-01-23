@@ -1,6 +1,6 @@
 +++
 title = ''
-description = 'Welcome, weary traveler.'
+description = 'Welcome, weary traveler'
 date = 2024-01-21T14:24:36-05:00
 draft = false
 +++

@@ -1,6 +1,6 @@
 +++
 title = ''
-description = 'Privacy information about this blog.'
+description = 'Privacy information about this blog'
 date = 2024-01-21T12:43:53-05:00
 draft = false
 showAuthor = false

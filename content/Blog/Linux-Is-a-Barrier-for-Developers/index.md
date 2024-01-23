@@ -2,7 +2,7 @@
 title: "Linux Is a Barrier for Developers"
 date: 2023-09-09T20:32:18-04:00
 draft: false
-description: "Why Linux is a barrier for dveelopers."
+description: "Why Linux is a barrier for developers."
 tags: ["Linux", "rant"]
 type: 'post'
 ---

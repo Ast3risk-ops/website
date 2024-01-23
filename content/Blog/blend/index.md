@@ -1,5 +1,6 @@
 +++
 title = 'BlendOS V3'
+description = "My thoughts on BlendOS v3"
 date = 2023-08-23T07:28:27-04:00
 draft = false
 tags = ["blendOS", "Hashnode Archive", "Linux"]

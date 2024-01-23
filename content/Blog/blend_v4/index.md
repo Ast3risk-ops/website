@@ -2,6 +2,7 @@
 title = 'BlendOS v4 Install Guide'
 date = 2023-11-27T15:08:40-05:00
 type = 'post'
+description = "The BlendOS v4 alpha is now out! Here's how you can install and try it out."
 draft = false
 tags = ['BlendOS', 'linux', 'guide']
 +++
