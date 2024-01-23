@@ -42,7 +42,15 @@ Documentation for a truly customizeable distro.
 
 ## This website
 
-WIP
+{{< lead >}}
+A Blowfish site that you're looking at right now.
+{{< /lead >}}
+
+{{< github repo="ast3risk-ops/website" >}}
+<br>
+{{< button href="/" target="_self" >}}
+ Check it out
+{{< /button >}}
 
 <br>
 
