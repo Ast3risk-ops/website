@@ -1,0 +1,25 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Asterisk's Den"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+description = "Welcome, weary traveler."
+logo = "./assets/favicon-32x32.png"
+
+[author]
+name = "Asterisk"
+links = [
+    { github = "https://github.com/ast3risk-ops" },
+    { mastodon = "https://social.linux.pizza/@asterisk" },
+    { envelope = "mailto:me@asterisk.lol" },
+    { pgpkey = "https://github.com/ast3risk-ops.gpg" },
+    { ellipsis-vertical = "/socials" },
+]
+image = "asterisk_ext.png"
+headline = "Canadian Linux Nerd"
+bio = "Canadian Linux nerd and game enthusiast"

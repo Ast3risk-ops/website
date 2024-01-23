@@ -1,0 +1,72 @@
+[[main]]
+none = "none"
+
+
+[[main]]
+name = "Projects"
+pageRef = "projects"
+identifier = "Vf8DpdZQrg"
+weight = 3
+
+[[main]]
+name = "Blog"
+pageRef = "blog"
+identifier = "ZEPOyVx2By"
+weight = 1
+
+[[main]]
+pre = "github"
+url = "https://github.com/ast3risk-ops/website"
+identifier = "aUjvRJdn7W"
+weight = 9996
+
+[[main]]
+pre = "mastodon"
+url = "https://social.linux.pizza/@asterisk"
+identifier = "z8NZbXAYa7"
+weight = 9997
+
+# [[main]]
+# pre = "ellipsis"
+# pageRef = "socials"
+# identifier = "9DkpqzViMt"
+# weight = 9999
+
+[[main]]
+name = "Socials"
+# parent = "9DkpqzViMt"
+pageRef = "socials"
+weight = 9995
+
+[[main]]
+pre = "rss"
+url = "/index.xml"
+identifier = "t6IYBgbGS7"
+weight = 9998
+
+[[footer]]
+none = "none"
+
+[[footer]]
+name = "Sitemap"
+url = "/sitemap.xml"
+identifier = "YGc6qAmwhH"
+weight = 9999
+
+[[footer]]
+name = "Copyright"
+pageRef = "copyright"
+identifier = "dacK03cUOn"
+weight = 9999
+
+[[footer]]
+name = "Privacy"
+pageRef = "privacy"
+identifier = "5GBle8FZTH"
+weight = 9999
+
+[[footer]]
+name = "RSS"
+url = "/index.xml"
+identifier = "zycpdwCi5Y"
+weight = 9999
