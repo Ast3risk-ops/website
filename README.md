@@ -55,3 +55,7 @@ Services used:
 All blog content is under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en).
 
 ------
+
+All my content is written by me.
+
+[![notbyai](https://asterisk.is-from.space/r/human.png)](https://notbyai.fyi)
