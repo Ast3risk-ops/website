@@ -2,7 +2,7 @@
 title = 'BlendOS v4 Install Guide'
 date = 2023-11-27T15:08:40-05:00
 type = 'post'
-draft = true
+draft = false
 tags = ['BlendOS', 'linux', 'guide']
 +++
 
