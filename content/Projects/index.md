@@ -58,7 +58,7 @@ A Blowfish site that you're looking at right now.
   tag=h1
   lifeLike=true
 >}}
-My weird shit
+My weird stuff
 {{< /typeit >}}
 
 ## SpotX Scoop Bucket
