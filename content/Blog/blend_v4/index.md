@@ -278,7 +278,7 @@ commands:       # List of commands to run at system build, will execute with roo
 <br>
 {{< alert cardColor="#fff900" textColor="#3f3f46" iconColor="#000000" >}} This option must be set.{{< /alert >}}
 
-**Type: string value**
+**Type: `string value`**
 
 Don't change this. Repo where the core blendOS packages (and `akshara`) are stored.
 
@@ -290,7 +290,7 @@ Don't change this. Repo where the core blendOS packages (and `akshara`) are stor
 <br>
 {{< alert cardColor="#fff900" textColor="#3f3f46" iconColor="#000000" >}} This option must be set.{{< /alert >}}
 
-**Type: string value**
+**Type: `string value`**
 
 The repo where the tracks are.
 
@@ -300,7 +300,7 @@ The repo where the tracks are.
 <br>
 {{< alert cardColor="#fff900" textColor="#3f3f46" iconColor="#000000" >}} This option must be set.{{< /alert >}}
 
-**Type: string value**
+**Type: `string value`**
 
 The track yaml file, without the extension (i.e. `blendos-base.yaml` -> `track: blendos-base`).
 
