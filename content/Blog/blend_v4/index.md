@@ -1,13 +1,13 @@
 +++
-title = 'BlendOS v4 Install Guide'
+title = 'blendOS v4 Install Guide'
 date = 2023-11-27T15:08:40-05:00
 type = 'post'
-description = "The BlendOS v4 alpha is now out! Here's how you can install and try it out."
+description = "The blendOS v4 alpha is now out! Here's how you can install and try it out."
 draft = false
-tags = ['BlendOS', 'linux', 'guide']
+tags = ['blendOS', 'linux', 'guide']
 +++
 
-The BlendOS v4 alpha is now out! Here's how you can install and try it out.
+The blendOS v4 alpha is now out! Here's how you can install and try it out.
 
 <!--more-->
 {{< alert icon="circle-info" cardColor="#1e3a8a" textColor="#f5f6fa" iconColor="#60a5fa">}}
@@ -18,11 +18,11 @@ I'm not going to go over the release details. For those, go to the [release blog
 
 # Installing v4
 
-BlendOS v4 is a lot more declarative than v3. The current beta must be installed on top of Arch.
+blendOS v4 is a lot more declarative than v3. The current beta must be installed on top of Arch.
 ## What you'll need
 
 {{< alert icon="bomb" cardColor="#e63946" iconColor="#1d3557" textColor="#f1faee" >}}
-**Do not install this on top of BlendOS v3!**
+**Do not install this on top of blendOS v3!**
 
 
 There is no upgrade procedure <i>yet</i>, this will ruin your v3 install if you try to update from it.
@@ -124,7 +124,7 @@ Scroll to the <a href="#steps-contd">next section</a> if you do not wish to cust
 
 {{< alert icon="circle-question" cardColor="#64dd17" textColor="#000000" iconColor="black">}}
 Want to add to this list?
-Just make a <a href="#post-comments">comment</a>! I'll look at your repo if you <a href="#post-comments">comment it</a>.
+Just make a comment! I'll look at your repo if you comment it.
 {{< /alert >}}
 
 
@@ -163,7 +163,7 @@ track: 'blendos-base' # one of two tracks that differ from the standard repo
 Always run <code>sudo akshara update</code> after editing your <code>system.yaml</code>.
 {{< /alert >}}
 
-## Adding custom track repos:
+#### Adding custom track repos
 
 Your repo must have a series of YAML files, look at the [main track repo](https://github.com/blend-os/tracks) for examples.
 
@@ -203,7 +203,7 @@ Run `sudo mkinitcpio -P; sudo akshara update`.
 Reboot your system.
 
 {{< alert icon="check" cardColor="#000000" textColor="#ffffff" iconColor="#01730c" >}}
-<b>BlendOS v4 is now installed!</b>
+<b>blendOS v4 is now installed!</b>
 
 To update your Arch packages, just run <code>sudo akshara update</code>.
 {{< /alert >}}
@@ -307,7 +307,7 @@ The track yaml file, without the extension (i.e. `blendos-base.yaml` -> `track: 
 #### `packages`
 {{< alert icon="circle-info" cardColor="#1e3a8a" textColor="#f5f6fa" iconColor="#60a5fa" >}}Default: none, can be provided by track.{{< /alert >}}
 
-**Type: array**
+**Type: `array`**
 
 Add packages to install from the repos (including set custom ones) via `pacman`, one per-line.
 
@@ -320,7 +320,7 @@ packages:
 #### `aur-packages`
 {{< alert icon="circle-info" cardColor="#1e3a8a" textColor="#f5f6fa" iconColor="#60a5fa" >}}Default: none, can be provided by track.{{< /alert >}}
 
-**Type: array**
+**Type: `array`**
 
 Same as [`packages`](#packages), but for packages from the AUR.
 
@@ -333,7 +333,7 @@ aur-packages:
 #### `services`
 {{< alert icon="circle-info" cardColor="#1e3a8a" textColor="#f5f6fa" iconColor="#60a5fa" >}}Default: none, can be provided by track.{{< /alert >}}
 
-**Type: array**
+**Type: `array`**
 
 Services to start via `systemd`.
 
@@ -346,7 +346,7 @@ services:
 #### `custom-repos`
 {{< alert icon="circle-info" cardColor="#1e3a8a" textColor="#f5f6fa" iconColor="#60a5fa" >}}Default: none, can be provided by track.{{< /alert >}}
 
-**Type: object array**
+**Type: `object array`**
 
 Custom repos to add. Consists of their name and URL as they would appear in pacman.conf.
 
@@ -361,7 +361,7 @@ Support for mirror*lists* is coming in the future. For now, you can just pick a 
 #### `commands`
 {{< alert icon="circle-info" cardColor="#1e3a8a" textColor="#f5f6fa" iconColor="#60a5fa" >}}Default: none, can be provided by track.{{< /alert >}}
 
-**Type: array**
+**Type: `array`**
 
 Commands to be run at system build, run as root.
 
