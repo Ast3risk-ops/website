@@ -163,6 +163,30 @@ track: 'blendos-base' # one of two tracks that differ from the standard repo
 Always run <code>sudo akshara update</code> after editing your <code>system.yaml</code>.
 {{< /alert >}}
 
+## Adding custom track repos:
+
+Your repo must have a series of YAML files, look at the [main track repo](https://github.com/blend-os/tracks) for examples.
+
+Your base track must have a `track:` of `custom`, as shown [here](https://github.com/blend-os/tracks/blob/main/blendos-base.yaml). Desktop tracks must have their track set to your base track.
+
+Tracks are like mini `system.yaml` files, and have the same structure.
+
+The easiest way to get started is to just fork the main repo, but `impl` URL structures for common Git forges are shown below:
+
+{{< alert icon="none" cardColor="#1e3a8a" textColor="#f5f6fa" iconColor="#60a5fa" >}}
+<b>Common git forges:</b>
+
+GitHub: <code>https://github.com/USER/REPO/raw/BRANCH</code>
+
+GitLab: <code>https://GITLAB-SERVER/USER/REPO/-/raw/BRANCH</code>
+
+Gitea/Forgejo (i.e. Codeberg): <code>https://GITEA-SERVER/USER/REPO/raw/branch/BRANCH</code>
+
+BitBucket Cloud (Not Recommended): <code>https://bitbucket.org/USER/REPO/raw/FULL_COMMIT_HASH/</code> 
+
+\* For BitBucket, you must add all the track files in ONE COMMIT, and use that commit's full hash.
+{{< /alert >}}
+
 
 ## Steps (cont.d)
 
@@ -269,30 +293,6 @@ Don't change this. Repo where the core blendOS packages (and `akshara`) are stor
 **Type: string value**
 
 The repo where the tracks are.
-
-**Adding custom track repos:**
-
-Your repo must have a series of YAML files, look at the [main track repo](https://github.com/blend-os/tracks) for examples.
-
-Your base track must have a `track:` of `custom`, as shown [here](https://github.com/blend-os/tracks/blob/main/blendos-base.yaml). Desktop tracks must have their track set to your base track.
-
-Tracks are like mini `system.yaml` files, and have the same structure.
-
-The easiest way to get started is to just fork the main repo, but `impl` URL structures for common Git forges are shown below:
-
-{{< alert icon="none" cardColor="#1e3a8a" textColor="#f5f6fa" iconColor="#60a5fa" >}}
-<b>Common git forges:</b>
-
-GitHub: <code>https://github.com/USER/REPO/raw/BRANCH</code>
-
-GitLab: <code>https://GITLAB-SERVER/USER/REPO/-/raw/BRANCH</code>
-
-Gitea/Forgejo (i.e. Codeberg): <code>https://GITEA-SERVER/USER/REPO/raw/branch/BRANCH</code>
-
-BitBucket Cloud (Not Recommended): <code>https://bitbucket.org/USER/REPO/raw/FULL_COMMIT_HASH/</code> 
-
-\* For BitBucket, you must add all the track files in ONE COMMIT, and use that commit's full hash.
-{{< /alert >}}
 
 #### `track`
 
