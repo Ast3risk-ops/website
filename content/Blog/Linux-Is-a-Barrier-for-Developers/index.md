@@ -28,6 +28,10 @@ This is heavily inspired by Nicholas Fraser's [blog post](https://ludocode.com/b
 {{< alert cardColor="#fff900" textColor="#3f3f46" iconColor="#000000" >}}
 This article is a rant. It is not super-well researched and may contain invalid points.
 {{< /alert >}}
+<br>
+{{< alert icon="linux" cardColor="black" textColor="white" iconColor="#11ff00" >}}
+I use Linux now, but honestly my points still stand.
+{{< /alert >}}
 
 <br>
 
