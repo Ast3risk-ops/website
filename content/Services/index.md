@@ -1,0 +1,72 @@
++++
+title = ''
+date = 2024-01-28T14:41:16-05:00
+draft = false
+layout = 'simple'
++++
+
+<div align="center">
+{{< typeit
+  tag=h1
+  lifeLike=true
+>}}
+Services
+{{< /typeit >}}
+
+{{< lead >}} I run this cool stuff. {{< /lead >}}
+
+Everything here runs on a single server in Canada, protected by Cloudflare.
+
+
+{{< timeline >}}
+{{< timelineItem icon="file-zipper" header="Fileserver" subheader="My warez n stuff">}}
+
+Nothing illegal, and mostly unlisted.
+<br><br>
+{{< button href="https://files.asterisk.lol" target="_blank" >}}
+Go there
+{{< /button >}}
+&nbsp; 
+{{< button href="https://files.asterisk.lol/optifine" target="_blank" >}}
+Optifine Collection
+{{< /button >}}
+
+{{< /timelineItem >}}
+
+{{< timelineItem icon="terminal" header="PasteBox" subheader="My personal pastebin">}}
+
+I use this to share code snippets and the like, powered by <a href="https://github.com/toptal/haste-server" target="_blank" rel="noopener noreferrer">Hastebin</a>.
+<br><br>
+{{< button href="https://paste.asterisk.lol" target="_blank" >}}
+Go there
+{{< /button >}}
+
+{{< /timelineItem >}}
+
+{{< timelineItem icon="cloud-arrow-up" header="ShareBox" subheader="Simple, encrypted file sharing">}}
+
+I run a <a href="https://gitlab.com/timvisee/send" target="_blank" rel="noopener noreferrer">Send</a> instance.
+<br><br>
+{{< button href="https://u.asterisk.lol" target="_blank" >}}
+Go there
+{{< /button >}}
+
+{{< /timelineItem >}}
+
+{{< timelineItem icon="satellite-dish" header="StatusBox" subheader="My personal Uptime Kuma instance">}}
+
+I do uptime monitoring for select groups or individuals, as well as myself, powered by <a href="https://uptime.kuma.pet/" target="_blank" rel="noopener noreferrer">Uptime Kuma</a>.
+<br><br>
+{{< button href="https://status.asterisk.lol/status/blendos" target="_blank" >}}
+BlendOS Status
+{{< /button >}}
+&nbsp;
+{{< button href="https://status.asterisk.lol/status/fosstorrents" target="_blank" >}}
+FossTorrents Status
+{{< /button >}}
+
+{{< /timelineItem >}}
+
+
+{{< /timeline >}}
+</div>

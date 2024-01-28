@@ -1,7 +1,6 @@
 [[main]]
 none = "none"
 
-
 [[main]]
 name = "Projects"
 pageRef = "projects"
@@ -26,15 +25,8 @@ url = "https://social.linux.pizza/@asterisk"
 identifier = "z8NZbXAYa7"
 weight = 9997
 
-# [[main]]
-# pre = "ellipsis"
-# pageRef = "socials"
-# identifier = "9DkpqzViMt"
-# weight = 9999
-
 [[main]]
 name = "Socials"
-# parent = "9DkpqzViMt"
 pageRef = "socials"
 weight = 9995
 
@@ -43,6 +35,12 @@ pre = "rss"
 url = "/index.xml"
 identifier = "t6IYBgbGS7"
 weight = 9998
+
+[[main]]
+name = "Services"
+pageRef = "services"
+identifier = "qM6WIK7dX0"
+weight = 9995
 
 [[footer]]
 none = "none"
