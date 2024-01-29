@@ -31,7 +31,7 @@ enableRobotsTXT = true
 paginate = 10
 summaryLength = 0
 
-timeout = 120s
+timeout = 120
 
 buildDrafts = false
 buildFuture = false
