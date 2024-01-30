@@ -32,13 +32,20 @@ Email me
 
 {{< timelineItem icon="pgpkey" header="PGP Key" subheader="Encrypted mailings" >}}
 
-My current PGP key can be seen below.
+My current PGP key can be seen below. 
+
+<br><br>
+<b>I do not use keyservers, any keys there are not really mine. If you wish to talk to me, send me your key.</b>
 
 <br><br>
 
 
-{{< button href="https://github.com/ast3risk-ops.gpg" target="_blank" >}}
+{{< button href="https://files.asterisk.lol/publickey.asc" target="_blank" >}}
 Download my PGP key
+{{< /button >}}
+&nbsp;
+{{< button href="https://i.asterisk.lol/l/pgpkey" target="_blank" >}}
+View my PGP key
 {{< /button >}}
 
 {{< /timelineItem >}}
