@@ -17,7 +17,7 @@ links = [
     { github = "https://github.com/ast3risk-ops" },
     { mastodon = "https://social.linux.pizza/@asterisk" },
     { envelope = "mailto:me@asterisk.lol" },
-    { pgpkey = "https://github.com/ast3risk-ops.gpg" },
+    { pgpkey = "https://i.asterisk.lol/l/pgpkey" },
     { ellipsis-vertical = "/socials" },
 ]
 image = "asterisk_ext.png"
