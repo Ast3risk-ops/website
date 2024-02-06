@@ -18,5 +18,5 @@ I wrote posts here, and the arrangement worked, but eventually I went looking fo
 
 ## Initial Struggles
 
-
+Initially, the theme did not work correctly, displaying a 404 every time. I actually made a [GitHub issue](https://github.com/nunocoracao/blowfish/issues/1184) for this, but found a quick fix on my own; I forgot to uncomment `theme = "blowfish"` in `config.toml`. :facepalm:
 
