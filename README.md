@@ -54,6 +54,8 @@ Services used:
 
 All blog content is under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en).
 
+The blog theme is under the [MIT License](https://github.com/nunocoracao/blowfish/blob/main/LICENSE).
+
 ------
 
 All my content is written by me.
