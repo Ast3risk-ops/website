@@ -1,6 +1,6 @@
 ---
 title: "Moving to Blowfish"
-date: 2024-01-23
+date: 2024-02-07
 draft: true
 description: "Leaving HBS and coming to Blowfish"
 tags: ["Personal Experience"]
@@ -30,7 +30,7 @@ It seemed really powerful and robust, and had a [configuration tool](https://www
 
 Initially, the theme did not work correctly, displaying a 404 every time. 
 
-![404](https://private-user-images.githubusercontent.com/83875983/298305842-85fb7ba1-451e-4dd3-a6e0-5a3a66d935f3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDcyNjQyNjIsIm5iZiI6MTcwNzI2Mzk2MiwicGF0aCI6Ii84Mzg3NTk4My8yOTgzMDU4NDItODVmYjdiYTEtNDUxZS00ZGQzLWE2ZTAtNWEzYTY2ZDkzNWYzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjA2VDIzNTkyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTc1MTQyMGM5NTRkNDUxZDQ3NGRhMDhjYjMwM2NlMWU2ZDI0ODQwZGFmMDdmYjVkYTFiZDIyN2JmZDA1MjY0NTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.Z-zdpUlIyRclOPa2-azZ9Zm3DEkYIx7629ZTpGwyCDg ":sob:")
+![404](404.png ":sob:")
 
 I actually made a [GitHub issue](https://github.com/nunocoracao/blowfish/issues/1184) for this, but found a quick fix on my own; I forgot to uncomment `theme = "blowfish"` in `config.toml` :facepalm:.
 
@@ -44,15 +44,60 @@ I started with the basics like a title, icon, socials, etc, which the tool did w
 
 ### Theme
 
-Eventually I set a background image and chose a colour scheme. I looked through the [available ones](https://blowfish.page/docs/getting-started/#colour-schemes), and chose Congo as a holdover until I could make my own, because it looked very similar to my old blog.
-
-Here it is:
-
-{{< swatches "#71717a" "#8b5cf6" "#d946ef" >}}
+Eventually I set a background image and chose a colour scheme. I looked through the [available ones](https://blowfish.page/docs/getting-started/#colour-schemes), and chose Congo[^1] as a holdover until I could make my own, because it looked very similar to my old blog.
 
 However, I just ended up sticking with it.
 
+Setting up the menus and icons was a real breeze, and adding more was easy (more on that soon:tm:).
 
+### Deployment
+
+Deployment was fairly easy, no special Hugo flags required. The only caveat was I had to disable Cloudflare's [Rocket Loader:tm:](https://developers.cloudflare.com/speed/optimization/content/rocket-loader/) to fix the appearance switcher.
+
+### Icons
+
+This theme comes with a very small subset of icons from FontAwesome 6 Free. However, there is an easy procedure for adding more.
+
+All I had to go was go to FontAwesome's [icon page](https://fontawesome.com/search?o=r&m=free), search for an icon, and download it into <mark>assets/icons</mark>. I will be using the Discord icon from `fa-brands` as an example.
+
+![fas-search](fas-search.png "A world of free icons awaits...")
+
+
+![fas-dl](fas-dl.png "So easy!")
+
+From there it *does* get a bit more complicated, as you now have to edit the SVG file.
+
+Using our Discord SVG as an example (normally this would be minified onto a single line), we need to add `fill="currentColor"` to our `path` attribute, turning this:
+
+{{< highlight xml "linenos=table" >}}
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+    <path
+        d="M524.5 69.8a1.5 1.5 0 0 0 -.8-.7A485.1 485.1 0 0 0 404.1 32a1.8 1.8 0 0 0 -1.9 .9 337.5 337.5 0 0 0 -14.9 30.6 447.8 447.8 0 0 0 -134.4 0 309.5 309.5 0 0 0 -15.1-30.6 1.9 1.9 0 0 0 -1.9-.9A483.7 483.7 0 0 0 116.1 69.1a1.7 1.7 0 0 0 -.8 .7C39.1 183.7 18.2 294.7 28.4 404.4a2 2 0 0 0 .8 1.4A487.7 487.7 0 0 0 176 479.9a1.9 1.9 0 0 0 2.1-.7A348.2 348.2 0 0 0 208.1 430.4a1.9 1.9 0 0 0 -1-2.6 321.2 321.2 0 0 1 -45.9-21.9 1.9 1.9 0 0 1 -.2-3.1c3.1-2.3 6.2-4.7 9.1-7.1a1.8 1.8 0 0 1 1.9-.3c96.2 43.9 200.4 43.9 295.5 0a1.8 1.8 0 0 1 1.9 .2c2.9 2.4 6 4.9 9.1 7.2a1.9 1.9 0 0 1 -.2 3.1 301.4 301.4 0 0 1 -45.9 21.8 1.9 1.9 0 0 0 -1 2.6 391.1 391.1 0 0 0 30 48.8 1.9 1.9 0 0 0 2.1 .7A486 486 0 0 0 610.7 405.7a1.9 1.9 0 0 0 .8-1.4C623.7 277.6 590.9 167.5 524.5 69.8zM222.5 337.6c-29 0-52.8-26.6-52.8-59.2S193.1 219.1 222.5 219.1c29.7 0 53.3 26.8 52.8 59.2C275.3 311 251.9 337.6 222.5 337.6zm195.4 0c-29 0-52.8-26.6-52.8-59.2S388.4 219.1 417.9 219.1c29.7 0 53.3 26.8 52.8 59.2C470.7 311 447.5 337.6 417.9 337.6z"
+    />
+</svg>
+{{< /highlight >}}
+
+into this:
+
+{{< highlight xml "linenos=table,hl_lines=4" >}}
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+    <path
+        fill="currentColor"
+        d="M524.5 69.8a1.5 1.5 0 0 0 -.8-.7A485.1 485.1 0 0 0 404.1 32a1.8 1.8 0 0 0 -1.9 .9 337.5 337.5 0 0 0 -14.9 30.6 447.8 447.8 0 0 0 -134.4 0 309.5 309.5 0 0 0 -15.1-30.6 1.9 1.9 0 0 0 -1.9-.9A483.7 483.7 0 0 0 116.1 69.1a1.7 1.7 0 0 0 -.8 .7C39.1 183.7 18.2 294.7 28.4 404.4a2 2 0 0 0 .8 1.4A487.7 487.7 0 0 0 176 479.9a1.9 1.9 0 0 0 2.1-.7A348.2 348.2 0 0 0 208.1 430.4a1.9 1.9 0 0 0 -1-2.6 321.2 321.2 0 0 1 -45.9-21.9 1.9 1.9 0 0 1 -.2-3.1c3.1-2.3 6.2-4.7 9.1-7.1a1.8 1.8 0 0 1 1.9-.3c96.2 43.9 200.4 43.9 295.5 0a1.8 1.8 0 0 1 1.9 .2c2.9 2.4 6 4.9 9.1 7.2a1.9 1.9 0 0 1 -.2 3.1 301.4 301.4 0 0 1 -45.9 21.8 1.9 1.9 0 0 0 -1 2.6 391.1 391.1 0 0 0 30 48.8 1.9 1.9 0 0 0 2.1 .7A486 486 0 0 0 610.7 405.7a1.9 1.9 0 0 0 .8-1.4C623.7 277.6 590.9 167.5 524.5 69.8zM222.5 337.6c-29 0-52.8-26.6-52.8-59.2S193.1 219.1 222.5 219.1c29.7 0 53.3 26.8 52.8 59.2C275.3 311 251.9 337.6 222.5 337.6zm195.4 0c-29 0-52.8-26.6-52.8-59.2S388.4 219.1 417.9 219.1c29.7 0 53.3 26.8 52.8 59.2C470.7 311 447.5 337.6 417.9 337.6z"
+    />
+</svg>
+
+{{< /highlight >}}
+
+That's really easy! And now it follows our current color scheme and will work like any other icon! I already use this feature in lots of places in this website. 
+
+Technically you can pull from any icon set you want, I just prefer to use FontAwesome 6 as it fits the rest of the site, however [Simple Icons](https://simpleicons.org) also works well if you need more brand icons.
+
+You can find more icon sets at [Icones](https://icones.js.org).
 
 
 
@@ -61,3 +106,9 @@ However, I just ended up sticking with it.
 
 
 
+
+
+
+
+
+[^1]: Congo Scheme Colours: {{< swatches "#71717a" "#8b5cf6" "#d946ef" >}}
