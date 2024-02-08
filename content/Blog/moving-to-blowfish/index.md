@@ -99,9 +99,9 @@ Technically you can pull from any icon set you want, I just prefer to use FontAw
 
 You can find more icon sets at [Icones](https://icones.js.org).
 
+## My opinion
 
-
-## Compared to my old blog
+Compared to my old blog theme, this is missing certain shortcodes or features but it has everything I need and looks a million times better.
 
 
 
