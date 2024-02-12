@@ -101,7 +101,7 @@ You can find more icon sets at [Icones](https://icones.js.org).
 
 ## My opinion
 
-Compared to my old blog theme, this is missing certain shortcodes or features but it has everything I need and looks a million times better.
+Compared to my old blog theme, this is missing certain shortcodes or features but it has everything I need and looks a million times better. It's also a framework to build basic pages for an actual site, not just for a blog.
 
 
 
