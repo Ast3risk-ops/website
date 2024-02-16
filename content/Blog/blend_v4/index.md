@@ -39,7 +39,7 @@ There is no upgrade procedure <i>yet</i>, this will ruin your v3 install if you 
 ## Steps
 
 {{< alert icon="lightbulb" cardColor="#1e3a8a" textColor="#f5f6fa" iconColor="#60a5fa">}}
-I'm assuming your Arch Linux system is already up and running. If it isn't, there's plenty of guides, and you can just use <code>archinstall</code>.
+I'm assuming your Arch Linux system is already up and running. If it isn't, there's plenty of guides, and you can just use <code>archinstall</code>. If you're on a T2 Intel mac (2017 iMac Pro or an Intel Mac from 2018 and later), instructions are [here](https://wiki.t2linux.org/distributions/arch/installation/).
 {{< /alert >}}
 
 ### Add the `breakfast` repo
@@ -189,6 +189,10 @@ BitBucket Cloud (Not Recommended): <code>https://bitbucket.org/USER/REPO/raw/FUL
 
 
 ## Steps (cont.d)
+
+### Wifi firmware (T2 ONLY!)
+
+If you are on a T2 Mac, please follow [this guide](https://wiki.t2linux.org/guides/wifi-bluetooth/) to copy your wifi firmware over from MacOS **BEFORE** continuing with the rest of this guide.
 
 ### Installing `akshara`
 
