@@ -177,5 +177,8 @@ Until then, I'll stick with Windows.
 
 *Cover image taken from [FossBytes](https://fossbytes.com/).*
 
-[^1]: It's under the header "Permissions And Portals" by the way.
-**U**niversal **P**ackaging **F**ormat.
+
+
+[^2]: **U**niversal **P**ackaging **F**ormat.
+
+[^1]: Its under the header "Permissions And Portals" by the way.
