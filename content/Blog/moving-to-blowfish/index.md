@@ -62,7 +62,6 @@ All I had to go was go to FontAwesome's [icon page](https://fontawesome.com/sear
 
 ![fas-search](fas-search.png "A world of free icons awaits...")
 
-
 ![fas-dl](fas-dl.png "So easy!")
 
 From there it *does* get a bit more complicated, as you now have to edit the SVG file.
@@ -103,12 +102,6 @@ You can find more icon sets at [Icones](https://icones.js.org).
 
 Compared to my old blog theme, this is missing certain shortcodes or features but it has everything I need and looks a million times better. It's also a framework to build basic pages for an actual site, not just for a blog.
 
-
-
-
-
-
-
-
+I've been able to use this to make a decent site that's more than a blog or a <abbr title="Link In Bio, think Linktree, solo.to or bio.link">LIB</abbr> site, while being simple to edit and maintain and looking good. I can edit content in local markdown editors (Markdown CMSes like Decap I find weird and unnecessary), license it myself and have full control over my content, all while keeping a modern appearance.
 
 [^1]: Congo Scheme Colours: {{< swatches "#71717a" "#8b5cf6" "#d946ef" >}}

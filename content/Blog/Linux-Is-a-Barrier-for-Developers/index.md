@@ -13,8 +13,6 @@ This article is over a year old.
 
 Here's why.
 
-
-
 <!--more-->
 
 -------
@@ -106,7 +104,7 @@ There are 2 main software stores at play here, for the two most popular app cont
 Centralization is *bad*. When something is centralized, it's easy for the owners to monetize it to make a quick buck. Flathub doesn't process payments *yet*, but they will soon enough, it's too lucrative. They'll start *milking* these stores for as much money as they can, we're all human.
 
 > This is the real reason Ubuntu wants everyone to use Snap instead of helping us build apps that run natively on Ubuntu. This is also why they keep the Snap server source code closed. They want it to be “open” the way Android is “open”, where there is only one official store and sideloading apps is as annoying as possible.
->
+> 
 > *-Nicholas Fraser ([ludocode.com](https://ludocode.com/blog/flatpak-is-not-the-future))*
 
 Even Windows does better than this, with its MSI and EXE installers, which are also flawed. When *Windows* of all things is better than your system, you know your system is fucked up.
@@ -128,7 +126,7 @@ The developers of these frameworks might not bicker and might have gotten their 
 To prove my point further, here's a quote:
 
 > Attracting \[big companies\] will only happen by empowering them with a stable platform, not locking them in a box.
->
+> 
 > *- Nicholas Fraser ([ludocode.com](https://ludocode.com/blog/flatpak-is-not-the-future))*
 
 This is *not* a stable platform. This is hell. Choice is good, but at what point does it become too much?
@@ -144,8 +142,6 @@ We're *still* trying to transition our displays from a piece of software made in
 We also have different audio servers. They *should* all be somewhat interoperable. but the differences are still there. Pulseaudio is quite common, but [Pipewire](https://pipewire.org/) also exists.
 
 People develop for Windows because it's popular. I just can't avoid that. That's why I use Windows.
-
-
 
 ## The solution?
 
@@ -177,12 +173,9 @@ Until then, I'll stick with Windows.
 
 *- Asterisk*
 
-
-
 -------
-
 
 *Cover image taken from [FossBytes](https://fossbytes.com/).*
 
 [^1]: It's under the header "Permissions And Portals" by the way.
-[^2]: **U**niversal **P**ackaging **F**ormat.
+**U**niversal **P**ackaging **F**ormat.
