@@ -10,6 +10,7 @@ tags = ['blendOS', 'linux', 'guide']
 The blendOS v4 alpha is now out! Here's how you can install and try it out.
 
 <!--more-->
+
 {{< alert icon="circle-info" cardColor="#1e3a8a" textColor="#f5f6fa" iconColor="#60a5fa">}}
 I'm not going to go over the release details. For those, go to the [release blog post](https://blog.blendos.co/blendos-v4-alpha).
 {{< /alert >}}
@@ -19,11 +20,11 @@ I'm not going to go over the release details. For those, go to the [release blog
 # Installing v4
 
 blendOS v4 is a lot more declarative than v3. The current beta must be installed on top of Arch.
+
 ## What you'll need
 
 {{< alert icon="bomb" cardColor="#e63946" iconColor="#1d3557" textColor="#f1faee" >}}
 **Do not install this on top of blendOS v3!**
-
 
 There is no upgrade procedure <i>yet</i>, this will ruin your v3 install if you try to update from it.
 {{< /alert >}}
@@ -33,8 +34,6 @@ There is no upgrade procedure <i>yet</i>, this will ruin your v3 install if you 
 - An internet connection
 - Time
 - Basic YAML knowledge
-
-[^1]: You can use encryption by moving the `akshara` hook after the `encrypt` one in your `mkinitcpio.conf`, but this has not been tested, and is not officially supported.
 
 ## Steps
 
@@ -51,6 +50,7 @@ At the end of your `/etc/pacman.conf` add the following lines:
  SigLevel = Never
  Server = https://pkg-repo.blendos.co
 ```
+
 \* Yes, I am aware this has a `SigLevel` of never, this is very insecure. I'm assuming this is just a testing thing and will be fixed.
 
 If you'd like to browse our small repo, [feel free to do so](https://pkg-repo.blendos.co).
@@ -61,6 +61,7 @@ Create a file in `/` named `system.yaml`.
 
 {{< alert icon="none" cardColor="#1e3a8a" textColor="#f5f6fa" iconColor="#60a5fa" >}}
 <b>Avalible tracks on the <a href="https://github.com/blend-os/tracks" target="_blank" rel="noopener noreferrer">standard repo</a></b>:
+
 <ul>
 <li> <code>plasma</code></li>
 <li> <code>gnome</code></li>
@@ -127,7 +128,6 @@ Want to add to this list?
 Just make a comment! I'll look at your repo if you comment it.
 {{< /alert >}}
 
-
 Currently there are also alternate track repos:
 
 [T2Linux track repo](https://github.com/NoaHimesaka1873/blendos-tracks-t2/):
@@ -157,6 +157,7 @@ impl: 'https://github.com/ico277/blendos-tracks/raw/main'
 
 track: 'blendos-base' # one of two tracks that differ from the standard repo
 ```
+
 \* you can also use ico277's `blendos-desktop` track with this repo, which adds a very minimal (like just pipewire and xorg) desktop setup to `blendos-base`.
 
 {{< alert cardColor="#fff900" textColor="#3f3f46" iconColor="#000000" >}}
@@ -187,7 +188,6 @@ BitBucket Cloud (Not Recommended): <code>https://bitbucket.org/USER/REPO/raw/FUL
 \* For BitBucket, you must add all the track files in ONE COMMIT, and use that commit's full hash.
 {{< /alert >}}
 
-
 ## Steps (cont.d)
 
 ### Wifi firmware (T2 ONLY!)
@@ -216,7 +216,6 @@ To update your Arch packages, just run <code>sudo akshara update</code>.
 
 ### Adding repos
 
-
 Add a line to the end of `system.yaml` like so (using the [`chaotic-aur`](https://aur.chaotic.cx) as an example):
 
 ```yaml
@@ -239,7 +238,6 @@ aur-packages:
   - '2'
 ```
 
-
 ## Reference
 
 ### `system.yaml`
@@ -257,7 +255,7 @@ track: 'plasma' # The track you want
 packages:       # Packages to install using pacman
   - 'package_1'
   - 'package_2'
-  
+
 aur-packages:   # AUR packages, installed via paru
   - 'package_1-git'
   - 'package_2-bin'
@@ -273,7 +271,6 @@ package-repos:
 commands:       # List of commands to run at system build, will execute with root permissions, more file-related stuff like git is tricky
   - 'echo command_1'
   - 'echo command_2'
-
 ```
 
 #### `repo`
@@ -285,8 +282,6 @@ commands:       # List of commands to run at system build, will execute with roo
 **Type: `string value`**
 
 Don't change this. Repo where the core blendOS packages (and `akshara`) are stored.
-
-
 
 #### `impl`
 
@@ -309,6 +304,7 @@ The repo where the tracks are.
 The track yaml file, without the extension (i.e. `blendos-base.yaml` -> `track: blendos-base`).
 
 #### `packages`
+
 {{< alert icon="circle-info" cardColor="#1e3a8a" textColor="#f5f6fa" iconColor="#60a5fa" >}}Default: none, can be provided by track.{{< /alert >}}
 
 **Type: `array`**
@@ -322,6 +318,7 @@ packages:
 ```
 
 #### `aur-packages`
+
 {{< alert icon="circle-info" cardColor="#1e3a8a" textColor="#f5f6fa" iconColor="#60a5fa" >}}Default: none, can be provided by track.{{< /alert >}}
 
 **Type: `array`**
@@ -335,6 +332,7 @@ aur-packages:
 ```
 
 #### `services`
+
 {{< alert icon="circle-info" cardColor="#1e3a8a" textColor="#f5f6fa" iconColor="#60a5fa" >}}Default: none, can be provided by track.{{< /alert >}}
 
 **Type: `array`**
@@ -348,6 +346,7 @@ services:
 ```
 
 #### `custom-repos`
+
 {{< alert icon="circle-info" cardColor="#1e3a8a" textColor="#f5f6fa" iconColor="#60a5fa" >}}Default: none, can be provided by track.{{< /alert >}}
 
 **Type: `object array`**
@@ -363,6 +362,7 @@ custom-repos:
 Support for mirror*lists* is coming in the future. For now, you can just pick a mirror or use a geolocator URL if applicable.
 
 #### `commands`
+
 {{< alert icon="circle-info" cardColor="#1e3a8a" textColor="#f5f6fa" iconColor="#60a5fa" >}}Default: none, can be provided by track.{{< /alert >}}
 
 **Type: `array`**
@@ -375,8 +375,6 @@ commands:
   - 'echo 2'
 ```
 
-
-
 ### `akshara`
 
 #### Update system (new arch packages, edited config)
@@ -384,8 +382,8 @@ commands:
 ```bash
 sudo akshara update
 ```
-\* You will need to reboot after this.
 
+\* You will need to reboot after this.
 
 #### Help menu
 
@@ -398,3 +396,5 @@ akshara help
 ```bash
 akshara version
 ```
+
+[^1]: You can use encryption by moving the `akshara` hook after the `encrypt` one in your `mkinitcpio.conf`, but this has not been tested, and is not officially supported.

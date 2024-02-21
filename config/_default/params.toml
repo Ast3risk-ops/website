@@ -71,7 +71,7 @@ cardViewScreenWidth = false
 constrainItemsWidth = false
 
 [sitemap]
-excludedKinds = ["taxonomy", "term"]
+excludedKinds = [ "taxonomy", "term" ]
 
 [taxonomy]
 showTermCount = true
@@ -93,7 +93,6 @@ cardView = true
 cardViewScreenWidth = false
 
 [firebase]
-
 
 [fathomAnalytics]
 
