@@ -62,7 +62,7 @@ Go there
 
 {{< timelineItem icon="mastodon" header="Mastodon" subheader="I post here sometimes" >}}
 
-Check it out if you want, I'm considering moving to the <a href="https://glitch-soc.github.io/docs/" target="_blank" rel="noopener noreferrer">glitch-soc</a> or <a href="https://github.com/TheEssem/mastodon" target="_blank" rel="noopener noreferrer">Chuckya</a> forks (or using <a href="https://joinfirefish.org" target="_blank" rel="noopener noreferrer">Firefish</a>).
+Check it out if you want, I'm considering moving to the <a href="https://glitch-soc.github.io/docs/" target="_blank" rel="noopener noreferrer">glitch-soc</a> or <a href="https://github.com/TheEssem/mastodon" target="_blank" rel="noopener noreferrer">Chuckya</a> forks (or using <a href="https://joinsharkey.org/" target="_blank" rel="noopener noreferrer">Sharkey</a>).
 <br><br>
 
 {{< button href="https://social.linux.pizza/@asterisk" target="_blank" >}}
