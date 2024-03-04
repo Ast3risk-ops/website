@@ -74,7 +74,7 @@ Create a file in `/` named `system.yaml`.
 
 This is YAML so indentation is important. All indents are 2 *spaces* (no tabs).
 
-Add the following to it (or something similar):
+Add the following to it (or something similar, **THIS IS JUST AN EXAMPLE!**):
 
 ```yaml
  # /system.yaml
@@ -94,7 +94,7 @@ Add the following to it (or something similar):
  #   - 'nvidia-dkms' if you're using an NVIDIA GPU
 ```
 
-You can add repos and things to this file, as documented [here](#systemyaml):
+You can add repos and things to this file, as documented [here](#systemyaml) (Again, **just an example**): 
 
 ```yaml
 repo: 'https://pkg-repo.blendos.co/'
@@ -177,6 +177,8 @@ The easiest way to get started is to just fork the main repo, but `impl` URL str
 {{< alert icon="none" cardColor="#1e3a8a" textColor="#f5f6fa" iconColor="#60a5fa" >}}
 <b>Common git forges:</b>
 
+Replace everything in caps with what it represents.
+
 GitHub: <code>https://github.com/USER/REPO/raw/BRANCH</code>
 
 GitLab: <code>https://GITLAB-SERVER/USER/REPO/-/raw/BRANCH</code>
@@ -185,7 +187,7 @@ Gitea/Forgejo (i.e. Codeberg): <code>https://GITEA-SERVER/USER/REPO/raw/branch/B
 
 BitBucket Cloud (Not Recommended): <code>https://bitbucket.org/USER/REPO/raw/FULL_COMMIT_HASH/</code> 
 
-\* For BitBucket, you must add all the track files in ONE COMMIT, and use that commit's full hash.
+<blockquote>For BitBucket, you must add all the track files in ONE COMMIT, and use that commit's full hash.</blockquote>
 {{< /alert >}}
 
 ## Steps (cont.d)
@@ -216,7 +218,7 @@ To update your Arch packages, just run <code>sudo akshara update</code>.
 
 ### Adding repos
 
-Add a line to the end of `system.yaml` like so (using the [`chaotic-aur`](https://aur.chaotic.cx) as an example):
+Add a line to the end of `system.yaml` like so (using the [`chaotic-aur`](https://aur.chaotic.cx) as **an example**):
 
 ```yaml
 package-repos:
@@ -230,7 +232,7 @@ If you add repos, run `sudo akshara update` and reboot afterwards.
 
 ### Adding AUR packages
 
-Add stuff under the `aur-packages` tag. They will be installed via `paru` automatically (paru is in our repo, don't add it as a package here). You will need to run `sudo akshara update` a lot more often.
+Add stuff under the `aur-packages` tag. They will be installed via `paru` automatically (`paru` is in our repo, don't add it as a package here). You will need to run `sudo akshara update` a lot more often.
 
 ```yaml
 aur-packages:
@@ -242,7 +244,7 @@ aur-packages:
 
 ### `system.yaml`
 
-`system.yaml` structure (preserve all single quotes):
+`system.yaml` structure (preserve all single quotes **and the order of items**):
 
 ```yaml
 repo: 'https://pkg-repo.blendos.co' # Do not change this.

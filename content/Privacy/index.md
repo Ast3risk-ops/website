@@ -9,8 +9,7 @@ layout = 'simple'
 
 {{< typeit
   tag=h1
-  lifeLike=true
->}}
+  lifeLike=true >}}
 Privacy and AI
 {{< /typeit >}}
 
@@ -24,7 +23,6 @@ Privacy and AI
 
 <!-- - The footer badge is hosted on Rimgo (privacy-friendly Imgur frontend, lunar.icu instance) and their [privacy policy](https://rimgo.lunar.icu/privacy) applies. -->
 
-
 ## Generative AI (ChatGPT)
 
 My content is 100% human-written and will always be that way. As a testament to this, I use the badge below:
@@ -35,7 +33,8 @@ To learn more, and get this badge for yourself, visit [**notbyai**](https://notb
 
 I also do not want AI to use my work. AI cannot write with passion, as it has no intelligence. It just plays word games and creates unoriginal content.
 
+You can see by AI bot blocklist rules in [`robots.txt`](/robots.txt).
+
 ![ai-chart](ai-generates-content-using-human-content-white.png "See the problem here? (Credit: [notbyai](https://notbyai.fyi/#not-by-ai-mission))")
 
 **PLEASE REMOVE MY BLOG FROM AI DATASETS OR AI-WRITTEN POSTS!**
-
