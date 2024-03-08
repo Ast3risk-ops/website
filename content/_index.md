@@ -4,6 +4,7 @@ description = 'Welcome, weary traveler'
 date = 2024-01-21T14:24:36-05:00
 draft = false
 +++
+
 <!-- 
 <div align="center">
 <img src="https://api.statusbadges.me/badge/status/789561823863111742" alt="status">
@@ -14,8 +15,8 @@ draft = false
   tag=h1
   lifeLike=true
   breakLines=false
-  loop=true
->}}
+  loop=true >}}
+
 Welcome, weary traveler.
 Come and take a seat.
 Add some logs to the fire.
@@ -23,10 +24,11 @@ Add some logs to the fire.
 
 {{< lead >}}It's cold out there.{{< /lead >}}
 
+{{< alert cardColor="#fff900" textColor="#3f3f46" iconColor="#000000" >}}There is currently a theming issue where everything is blue instead of purple. This will be fixed eventually.{{< /alert >}}
+
 :flag_ca: Proudly Canadian.
 
 I game too much.
-
 
 {{< list title="Recent Posts" limit=5 where="Type" value="post" >}}
 

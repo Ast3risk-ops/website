@@ -6,6 +6,12 @@ description: "Leaving HBS and coming to Blowfish"
 tags: ["Personal Experience"]
 ---
 
+<style>
+.emoji {
+    width: 50px;
+}
+</style>
+
 ## The Beginning
 
 I used to use the [HBS theme](https://hbs.razonyang.com/v1/en/), which had a lot of features and utilities.
@@ -39,6 +45,10 @@ Once I got it working, I had to start configuring it, something I spent days on.
 ## Building the site
 
 ### Basics
+
+First setting it up involves running `npx blowfish-tools` (just runs it) or
+
+`npm i -g blowfish-tools` (installs it)
 
 I started with the basics like a title, icon, socials, etc, which the tool did well.
 
@@ -98,10 +108,20 @@ Technically you can pull from any icon set you want, I just prefer to use FontAw
 
 You can find more icon sets at [Icones](https://icones.js.org).
 
+### Comments
+
+Adding comments is quite easy. For this example, I will be using [giscus](https://giscus.app), a comment system powered by github discussions used on this site. 
+
+After setting everything up and obtaining your script snippet, just paste it into a new file called `comments.html` in <mark>layouts/partials</mark>. Then, edit <mark>params.toml</mark>  and set `article.showComments` to `true`.
+
 ## My opinion
 
 Compared to my old blog theme, this is missing certain shortcodes or features but it has everything I need and looks a million times better. It's also a framework to build basic pages for an actual site, not just for a blog.
 
 I've been able to use this to make a decent site that's more than a blog or a <abbr title="Link In Bio, think Linktree, solo.to or bio.link">LIB</abbr> site, while being simple to edit and maintain and looking good. I can edit content in local markdown editors (Markdown CMSes like Decap I find weird and unnecessary), license it myself and have full control over my content, all while keeping a modern appearance.
+
+It also gets people to ask if I made this myself because nobody checks the footer. {{< figure src="tro.webp" class="emoji" nozoom=true  >}}
+
+It's a hell of a lot more professional, and it *works*.
 
 [^1]: Congo Scheme Colours: {{< swatches "#71717a" "#8b5cf6" "#d946ef" >}}
