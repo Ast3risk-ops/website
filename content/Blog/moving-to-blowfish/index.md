@@ -1,7 +1,7 @@
 ---
 title: "Moving to Blowfish"
 date: 2024-02-07
-draft: true
+draft: false
 description: "Leaving HBS and coming to Blowfish"
 tags: ["Personal Experience"]
 ---
@@ -76,7 +76,7 @@ All I had to go was go to FontAwesome's [icon page](https://fontawesome.com/sear
 
 From there it *does* get a bit more complicated, as you now have to edit the SVG file.
 
-Using our Discord SVG as an example (normally this would be minified onto a single line), we need to add `fill="currentColor"` to our `path` attribute, turning this:
+Using our Discord SVG as an example (normally this would be minified onto a single line), we need to add the attribute `fill="currentColor"` to our `path` item, turning this:
 
 {{< highlight xml "linenos=table" >}}
 
@@ -120,7 +120,7 @@ Compared to my old blog theme, this is missing certain shortcodes or features bu
 
 I've been able to use this to make a decent site that's more than a blog or a <abbr title="Link In Bio, think Linktree, solo.to or bio.link">LIB</abbr> site, while being simple to edit and maintain and looking good. I can edit content in local markdown editors (Markdown CMSes like Decap I find weird and unnecessary), license it myself and have full control over my content, all while keeping a modern appearance.
 
-It also gets people to ask if I made this myself because nobody checks the footer. {{< figure src="tro.webp" class="emoji" nozoom=true  >}}
+It also gets people to ask if I made this myself because nobody checks the footer. This [theme](https://blowfish.page) was made by [Nuno Coração](https://n9o.xyz), by the way. {{< figure src="tro.webp" class="emoji" nozoom=true  >}}
 
 It's a hell of a lot more professional, and it *works*.
 
