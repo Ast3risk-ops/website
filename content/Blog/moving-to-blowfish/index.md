@@ -4,6 +4,7 @@ date: 2024-02-07
 draft: false
 description: "Leaving HBS and coming to Blowfish"
 tags: ["Personal Experience"]
+type: "post"
 ---
 
 <style>
@@ -11,6 +12,11 @@ tags: ["Personal Experience"]
     width: 50px;
 }
 </style>
+
+Moving to a cool new theme.
+
+<!--more-->
+
 
 ## The Beginning
 
