@@ -24,7 +24,6 @@ Add some logs to the fire.
 
 {{< lead >}}It's cold out there.{{< /lead >}}
 
-{{< alert cardColor="#fff900" textColor="#3f3f46" iconColor="#000000" >}}There is currently a theming issue where everything is blue instead of purple. This will be fixed eventually.{{< /alert >}}
 
 :flag_ca: Proudly Canadian.
 
