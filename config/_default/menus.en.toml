@@ -2,12 +2,14 @@
 none = "none"
 
 [[main]]
+pre = "code"
 name = "Projects"
 pageRef = "projects"
 identifier = "Vf8DpdZQrg"
 weight = 3
 
 [[main]]
+pre = "pencil"
 name = "Blog"
 pageRef = "blog"
 identifier = "ZEPOyVx2By"
@@ -26,6 +28,7 @@ identifier = "z8NZbXAYa7"
 weight = 9997
 
 [[main]]
+pre = "comment-dots"
 name = "Socials"
 pageRef = "socials"
 weight = 9995
@@ -37,6 +40,7 @@ identifier = "t6IYBgbGS7"
 weight = 9998
 
 [[main]]
+pre = "gear"
 name = "Services"
 pageRef = "services"
 identifier = "qM6WIK7dX0"
@@ -46,24 +50,28 @@ weight = 9995
 none = "none"
 
 [[footer]]
+pre = "sitemap"
 name = "Sitemap"
 url = "/sitemap.xml"
 identifier = "YGc6qAmwhH"
 weight = 9999
 
 [[footer]]
+pre = "copyright-thin"
 name = "Copyright"
 pageRef = "copyright"
 identifier = "dacK03cUOn"
 weight = 9999
 
 [[footer]]
+pre = "circle-info"
 name = "Privacy"
 pageRef = "privacy"
 identifier = "5GBle8FZTH"
 weight = 9999
 
 [[footer]]
+pre = "rss"
 name = "RSS"
 url = "/index.xml"
 identifier = "zycpdwCi5Y"
