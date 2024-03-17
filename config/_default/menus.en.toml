@@ -17,15 +17,10 @@ weight = 1
 
 [[main]]
 pre = "github"
+name = "Source"
 url = "https://github.com/ast3risk-ops/website"
 identifier = "aUjvRJdn7W"
 weight = 9996
-
-[[main]]
-pre = "mastodon"
-url = "https://social.linux.pizza/@asterisk"
-identifier = "z8NZbXAYa7"
-weight = 9997
 
 [[main]]
 pre = "comment-dots"
@@ -35,6 +30,7 @@ weight = 9995
 
 [[main]]
 pre = "rss"
+name = "RSS"
 url = "/index.xml"
 identifier = "t6IYBgbGS7"
 weight = 9998
