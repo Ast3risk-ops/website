@@ -91,6 +91,22 @@ Go there
 
 {{< /timelineItem >}}
 
+{{< timelineItem icon="signal" header="Signal" subheader="Whatsapp 2: No more Facebook" >}}
+Encrypted messaging that's a bit better.
+<br>
+My username is <code>asterisk.02</code>.
+{{< /timelineItem >}}
+
+{{< timelineItem icon="telegram" header="Telegram" subheader="Doxxer's Den" >}}
+I <i>did</i> hide my phone number.
+<br><br>
+{{< button href="https://t.me/ast3risk" target="_blank" >}}
+Contact Me
+{{< /button >}}
+
+
+{{< /timelineItem >}}
+
 {{< timelineItem icon="revolt" header="Revolt" subheader="Discord but FOSS and lacking features." badge="not checked">}}
 
 My Revolt.chat username is <code>Asterisk#8010</code>.
