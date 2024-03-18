@@ -91,12 +91,6 @@ Go there
 
 {{< /timelineItem >}}
 
-{{< timelineItem icon="signal" header="Signal" subheader="Whatsapp 2: No more Facebook" >}}
-Encrypted messaging that's a bit better.
-<br>
-My username is <code>asterisk.02</code>.
-{{< /timelineItem >}}
-
 {{< timelineItem icon="telegram" header="Telegram" subheader="Doxxer's Den" >}}
 I <i>did</i> hide my phone number.
 <br><br>
