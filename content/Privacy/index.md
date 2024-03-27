@@ -13,7 +13,7 @@ layout = 'simple'
 Privacy and AI
 {{< /typeit >}}
 
-- I use [Cloudflare Analytics](https://www.cloudflare.com/web-analytics/) on this site. These are anonymous, privacy-conscious analytics that give me basic metrics.
+- I use [Umami Analytics](https://umami.is) (self hosted at `t.asterisk.lol`) on this site. These are anonymous, privacy-conscious analytics that give me basic metrics. To view what data I collect, see the [Umami demo](https://analytics.umami.is/share/LGazGOecbDtaIwDr/umami.is).
 
 - My comments section is powered by Github and is subject to the [Github Privacy Policy](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
 
