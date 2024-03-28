@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "optimize": "jampack ./public"
+  },
+  "dependencies": {
+    "@divriots/jampack": "*"
+  }
+}
