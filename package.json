@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "optimize": "jampack ./public"
+    "optimize": "jampack --nocache ./public"
   },
   "dependencies": {
     "@divriots/jampack": "*"
