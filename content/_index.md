@@ -5,12 +5,6 @@ date = 2024-01-21T14:24:36-05:00
 draft = false
 +++
 
-<!-- 
-<div align="center">
-<img src="https://api.statusbadges.me/badge/status/789561823863111742" alt="status">
-</div>
--->
-
 {{< typeit
   tag=h1
   lifeLike=true
@@ -32,5 +26,5 @@ I game too much.
 {{< list title="Recent Posts" limit=5 where="Type" value="post" >}}
 
 {{< button href="/blog" target="_self" >}}
-Read more
+All Posts
 {{< /button >}}
