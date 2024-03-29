@@ -3,7 +3,7 @@ export default {
   misc: {
     prefetch_links: 'in-viewport',
   },
-  css: {
+/*   css: {
     inline_critical_css: true,
-  }
+  } */
 };
