@@ -63,4 +63,4 @@ The blog theme is under the [MIT License](https://github.com/nunocoracao/blowfis
 
 All my content is written by me.
 
-[![notbyai](https://asterisk.is-from.space/r/human.png)](https://notbyai.fyi)
+[![notbyai](https://i.asterisk.lol/u/KF8SeS.png)](https://notbyai.fyi)
