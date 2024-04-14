@@ -12,7 +12,7 @@ Services used:
   <tr>
     <td align="center">
         <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">
-            <img src="https://asterisk.is-from.space/r/hugo-color.svg" width="100px;" alt="Next.js"/>
+            <img src="https://api.iconify.design/simple-icons:hugo.svg?color=%23fa438c" width="100px;" alt="Hugo"/>
             <br/>
             <sub>
                 <b>Hugo</b>
@@ -22,7 +22,7 @@ Services used:
     </td>
     <td align="center">
         <a href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">
-            <img src="https://blowfish.page/img/blowfish_logo_transparent.png" width="100px;" alt="TailwindCSS"/>
+            <img src="https://blowfish.page/img/blowfish_logo_transparent.png" width="100px;" alt="Blowfish"/>
             <br/>
             <sub>
                 <b>Blowfish</b>
@@ -42,7 +42,7 @@ Services used:
     </td>
     <td align="center">
         <a href="https://pages.cloudflare.com/" target="_blank" rel="noopener noreferrer">
-            <img src="https://asterisk.is-from.space/r/cloudflare-color.svg" width="100px;" alt="Cloudflare Pages"/>
+            <img src="https://api.iconify.design/simple-icons:cloudflarepages.svg?color=%23f48120" width="100px;" alt="Cloudflare Pages"/>
             <br/>
             <sub>
                 <b>Cloudflare Pages</b>
@@ -63,4 +63,4 @@ The blog theme is under the [MIT License](https://github.com/nunocoracao/blowfis
 
 All my content is written by me.
 
-[![notbyai](https://asterisk.is-from.space/r/human.png)](https://notbyai.fyi)
+[![notbyai](https://i.asterisk.lol/u/KF8SeS.png)](https://notbyai.fyi)
