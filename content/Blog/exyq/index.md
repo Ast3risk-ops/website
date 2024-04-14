@@ -10,6 +10,8 @@ tags = ['Personal Experience']
 This article is over a year old.
 {{< /alert >}}
 
+**PLEASE READ THE VERY END OF THIS ARTICLE!**
+
 My time working with and testing EXYQ.
 
 <!--more-->
@@ -80,6 +82,7 @@ So far, EXYQ seems interesting, I feel more people *will* stick to drama.gg thou
 It might just be another generic tech forum. It might succeed, it might fail. Regardless of what happens, I'll be in for the long run. I like the community, and the forum has a future.
 
 ---
+
 How ironic considering Sloth wanted EXYQ to die with him.
 
 ---
@@ -106,7 +109,7 @@ Sorry this is a bit shorter, there's just less to talk about as these events are
 
 Thank you for reading this. It is important I tell you that Sloth passed away on the 27<sup>th</sup> of October 2023.
 
-The EXYQ community is shakened by this loss.
+The EXYQ community is shaken by this loss.
 
 :dove: Rest in peace Sloth.
 
