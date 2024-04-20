@@ -20,7 +20,7 @@ My big projects
 Rebuilt from the ground up to be more modern and customizeable.
 {{< /lead >}}
 
-{{ gitlab baseURL="https://git.blendos.co/" projectID="1" >}}
+{{< gitlab baseURL="https://git.blendos.co/" projectID="28" >}}
 
 <br>
 {{< button href="https://blend-docs-material.pages.dev" target="_blank" >}}
