@@ -14,6 +14,21 @@ showComments = false
 My big projects
 {{< /typeit >}}
 
+## New blendOS Docs
+
+{{< lead >}}
+Rebuilt from the ground up to be more modern and customizeable.
+{{< /lead >}}
+
+{{ gitlab baseURL="https://git.blendos.co/" projectID="1" >}}
+
+<br>
+{{< button href="https://blend-docs-material.pages.dev" target="_blank" >}}
+Check it out
+{{< /button >}}
+
+
+
 ## PreBook
 
 {{< lead >}}
@@ -28,7 +43,7 @@ An NTLite preset to create a lightweight base ISO for any modification.
  Check it out
 {{< /button >}}
 
-## blendOS docs
+## Old blendOS docs
 
 {{< lead >}}
 Documentation for a truly customizeable distro.
