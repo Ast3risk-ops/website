@@ -68,8 +68,8 @@ Services used:
     <td align="center">
         <a href="https://jampack.divriots.com" target="_blank" rel="noopener noreferrer">
             <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://jampack.divriots.com/_astro/logo-dark.g2xiYBoQ.svg">
-            <source media="(prefers-color-scheme: light)" srcset="https://jampack.divriots.com/_astro/logo-light.DNzNB65P.svg">
+            <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Ast3risk-ops/website/assets/83875983/f5d4e8a5-08aa-48f1-89da-657b52195521">
+            <source media="(prefers-color-scheme: light)" srcset="https://github.com/Ast3risk-ops/website/assets/83875983/743b2447-27d6-4369-9d17-fca991005605">
             <img alt="Jampack" src="">
             </picture>
             <br/>
