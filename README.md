@@ -55,6 +55,30 @@ Services used:
         </a>
         <br/>
     </td>
+    <td align="center">
+        <a href="https://imgbot.net" target="_blank" rel="noopener noreferrer">
+            <img src="https://avatars.githubusercontent.com/ml/497?s=140&v=4" width="100px;" alt="ImgBot"/>
+            <br/>
+            <sub>
+                <b>ImgBot</b>
+            </sub>
+        </a>
+        <br/>
+    </td>
+    <td align="center">
+        <a href="https://jampack.divriots.com" target="_blank" rel="noopener noreferrer">
+            <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="https://jampack.divriots.com/_astro/logo-dark.g2xiYBoQ.svg">
+            <source media="(prefers-color-scheme: light)" srcset="https://jampack.divriots.com/_astro/logo-light.DNzNB65P.svg">
+            <img alt="Jampack" src="">
+            </picture>
+            <br/>
+            <sub>
+                <b>Jampack</b>
+            </sub>
+        </a>
+        <br/>
+    </td>
   </tr>
 </table>
 
