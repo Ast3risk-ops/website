@@ -50,7 +50,7 @@ Services used:
             <img src="https://api.iconify.design/simple-icons:cloudflarepages.svg?color=%23f48120" width="100px;" alt="Cloudflare Pages"/>
             <br/>
             <sub>
-                <b>Cloudflare Pages</b>
+                <b>Pages.dev</b>
             </sub>
         </a>
         <br/>
