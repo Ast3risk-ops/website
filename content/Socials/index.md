@@ -129,6 +129,17 @@ Go there
 
 {{< /timelineItem >}}
 
+{{< timelineItem icon="peertube" header="PeerTube" subheader="My YouTube channel, but on the Fediverse!" >}}
+
+It's really cool.
+<br><br>
+
+{{< button href="https://tube.asterisk.lol/c/asterisk" target="_blank" >}}
+Go there
+{{< /button >}}
+
+{{< /timelineItem >}}
+
 {{< timelineItem icon="itch" header="Itch.io" subheader="Shit games ahead" >}}
 
 I warned you.
