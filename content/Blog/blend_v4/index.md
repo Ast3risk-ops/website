@@ -15,6 +15,20 @@ The blendOS v4 alpha is now out! Here's how you can install and try it out.
 I'm not going to go over the release details. For those, go to the [release blog post](https://blog.blendos.co/blendos-v4-alpha).
 {{< /alert >}}
 
+
+
+<br>
+
+{{< alert cardColor="#000000" textColor="#ffffff" iconColor="#fff900" >}} 
+
+<h1>THIS GUIDE IS NOW IRRELEVANT!</h1>
+
+
+
+Please see the new, ISO-based install guide on our [preview docs](https://blend-docs-material.pages.dev/install/normal-pc).
+
+{{< /alert >}}
+
 <br>
 
 # Installing v4
