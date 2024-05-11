@@ -107,7 +107,7 @@ Sorry this is a bit shorter, there's just less to talk about as these events are
 
 # The End
 
-Thank you for reading this. It is important I tell you that Sloth passed away on the 27<sup>th</sup> of October 2023.
+Thank you for reading this. It is important I tell you that Sloth committed suicide on the 27<sup>th</sup> of October 2023.
 
 The EXYQ community is shaken by this loss.
 
