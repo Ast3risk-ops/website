@@ -18,10 +18,7 @@ Add some logs to the fire.
 
 {{< lead >}}It's cold out there.{{< /lead >}}
 
-
-:flag_ca: Proudly Canadian.
-
-I game too much.
+I game too much. I write words onto this site sometimes.
 
 {{< list title="Recent Posts" limit=5 where="Type" value="post" >}}
 
