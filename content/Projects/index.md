@@ -24,7 +24,7 @@ Rebuilt from the ground up to be more modern and customizeable.
 
 <br>
 {{< button href="https://blend-docs-material.pages.dev" target="_blank" >}}
-Check it out
+Website
 {{< /button >}}
 
 
@@ -40,7 +40,7 @@ An NTLite preset to create a lightweight base ISO for any modification.
 
 <br>
 {{< button href="https://prebook.asterisk.lol" target="_blank" >}}
- Check it out
+ Website
 {{< /button >}}
 
 ## Old blendOS docs
@@ -52,7 +52,7 @@ Documentation for a truly customizeable distro.
 {{< gitlab baseURL="https://git.blendos.co/" projectID="1" >}}
 <br>
 {{< button href="https://docs.blendos.co" target="_blank" >}}
- Check it out
+ Website
 {{< /button >}}
 
 ## This website
@@ -64,7 +64,7 @@ A Blowfish site that you're looking at right now.
 {{< github repo="ast3risk-ops/website" >}}
 <br>
 {{< button href="/" target="_self" >}}
- Check it out
+ You're on it right now
 {{< /button >}}
 
 <br>
