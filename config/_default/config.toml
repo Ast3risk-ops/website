@@ -5,7 +5,7 @@
 theme = "blowfish"
 baseURL = "https://asterisk.lol"
 defaultContentLanguage = "en"
-
+enableEmoji = true
 
 
 [privacy]
