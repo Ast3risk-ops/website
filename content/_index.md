@@ -5,9 +5,9 @@ date = 2024-01-21T14:24:36-05:00
 draft = false
 +++
 
-<meta content="/gm_construct_ballz.jpg" property="og:image" />
-<meta property="og:image:width" content="1280">
-<meta property="og:image:height" content="720">
+<meta content="/gm_construct_ballz.jpg" property="og:image">
+<meta name="twitter:image" content="/gm_construct_ballz.jpg">
+<meta content="summary_large_image" name="twitter:card">
 
 
 
