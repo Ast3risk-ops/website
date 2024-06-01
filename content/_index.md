@@ -9,6 +9,21 @@ draft = false
 <meta name="twitter:image" content="/gm_construct_ballz.jpg">
 <meta content="summary_large_image" name="twitter:card">
 
+<meta name="description" content="Welcome, weary traveler">
+
+<meta property="og:url" content="https://asterisk.lol">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Asterisk's Den">
+<meta property="og:description" content="Welcome, weary traveler">
+
+
+<meta property="twitter:domain" content="asterisk.lol">
+<meta property="twitter:url" content="https://asterisk.lol">
+<meta name="twitter:title" content="Asterisk's Den">
+<meta name="twitter:description" content="Welcome, weary traveler">
+
+
+
 
 
 {{< typeit
