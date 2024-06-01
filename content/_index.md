@@ -6,6 +6,8 @@ draft = false
 +++
 
 <meta content="/gm_construct_ballz.jpg" property="og:image" />
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="720">
 
 
 
