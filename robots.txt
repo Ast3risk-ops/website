@@ -1,0 +1,11 @@
+User-agent: * 
+Disallow: /cgi-bin/
+Disallow: /cdn-cgi/
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+Sitemap: https://asterisk.lol/sitemap.xml
