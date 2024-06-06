@@ -41,6 +41,8 @@ Add some logs to the fire.
 
 I game too much. I write words onto this site sometimes.
 
+<the-fold></the-fold>
+
 {{< list title="Recent Posts" limit=5 where="Type" value="post" >}}
 
 {{< button href="/blog" target="_self" >}}
