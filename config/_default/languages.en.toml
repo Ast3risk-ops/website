@@ -8,7 +8,7 @@ displayName = "EN"
 isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
-description = "Welcome, weary traveler."
+description = "👋 Hi there!"
 logo = "./assets/favicon-32x32.png"
 
 [author]
