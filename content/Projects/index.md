@@ -10,10 +10,9 @@ showComments = false
 {{< typeit
   tag=h1
   lifeLike=true
-
-> }}
-> My big projects
-> {{< /typeit >}}
+  >}}
+My big projects
+{{< /typeit >}}
 
 ## blendOS website
 
@@ -58,10 +57,9 @@ A Blowfish site that you're looking at right now.
 {{< typeit
   tag=h1
   lifeLike=true
-
-> }}
-> My weird stuff
-> {{< /typeit >}}
+  >}}
+My weird stuff
+{{< /typeit >}}
 
 ## SpotX Scoop Bucket
 

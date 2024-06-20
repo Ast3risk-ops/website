@@ -14,10 +14,11 @@ layout = 'simple'
 Services
 {{< /typeit >}}
 
-{{< lead >}} I run this cool stuff. {{< /lead >}}
+{{< lead >}}I run this cool stuff.{{< /lead >}}
 
 Everything here runs on a single server in Canada, protected by Cloudflare.
-
+  
+External server status: https://stats.uptimerobot.com/4PWO2UYXJN
 
 {{< timeline >}}
 {{< timelineItem icon="file-zipper" header="Fileserver" subheader="My warez n stuff">}}
@@ -77,6 +78,6 @@ Go there
 
 {{< /timelineItem >}}
 
-
 {{< /timeline >}}
+
 </div>
