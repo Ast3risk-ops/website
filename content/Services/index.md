@@ -67,6 +67,15 @@ FossTorrents Status
 
 {{< /timelineItem >}}
 
+{{< timelineItem icon="code" header="NoPaste" subheader="A backend-free, serverless pastebin" >}}
+It's great for embeds too!
+<br><br>
+{{< button href="https://np.asterisk.lol" target="_blank" >}}
+Go there
+{{< /button >}}
+
+{{< /timelineItem >}}
+
 
 {{< /timeline >}}
 </div>
