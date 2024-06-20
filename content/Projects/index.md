@@ -10,9 +10,10 @@ showComments = false
 {{< typeit
   tag=h1
   lifeLike=true
->}}
-My big projects
-{{< /typeit >}}
+
+> }}
+> My big projects
+> {{< /typeit >}}
 
 ## blendOS website
 
@@ -27,14 +28,11 @@ Rebuilt from the ground up to be more modern and customizeable.
 Website
 {{< /button >}}
 
-
-
 ## PreBook
 
 {{< lead >}}
 An NTLite preset to create a lightweight base ISO for any modification.
 {{< /lead >}}
-
 
 {{< github repo="pre-book/prebook" >}}
 
@@ -60,9 +58,10 @@ A Blowfish site that you're looking at right now.
 {{< typeit
   tag=h1
   lifeLike=true
->}}
-My weird stuff
-{{< /typeit >}}
+
+> }}
+> My weird stuff
+> {{< /typeit >}}
 
 ## SpotX Scoop Bucket
 
