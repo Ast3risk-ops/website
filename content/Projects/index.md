@@ -43,18 +43,6 @@ An NTLite preset to create a lightweight base ISO for any modification.
  Website
 {{< /button >}}
 
-## Old blendOS docs
-
-{{< lead >}}
-Documentation for a truly customizeable distro.
-{{< /lead >}}
-
-{{< gitlab baseURL="https://git.blendos.co/" projectID="1" >}}
-<br>
-{{< button href="https://docs.blendos.co" target="_blank" >}}
- Website
-{{< /button >}}
-
 ## This website
 
 {{< lead >}}
