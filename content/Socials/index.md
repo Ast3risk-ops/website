@@ -10,8 +10,7 @@ layout = 'simple'
 
 {{< typeit 
   tag=h1
-  lifeLike=true
->}}
+  lifeLike=true >}}
 My socials
 {{< /typeit >}}
 
@@ -22,7 +21,6 @@ My socials
 
 You can reach me below, my email is <code>me@asterisk.lol</code>.
 <br><br>
-
 
 {{< button href="mailto:me@asterisk.lol" target="_blank" >}}
 Email me
@@ -38,7 +36,6 @@ My current PGP key can be seen below.
 <b>I do not use keyservers, any keys there are not really mine. If you wish to talk to me, send me your key.</b>
 
 <br><br>
-
 
 {{< button href="https://files.asterisk.lol/publickey.asc" target="_blank" >}}
 Download my PGP key
@@ -97,7 +94,6 @@ I <i>did</i> hide my phone number.
 {{< button href="https://t.me/ast3risk" target="_blank" >}}
 Contact Me
 {{< /button >}}
-
 
 {{< /timelineItem >}}
 
@@ -162,6 +158,5 @@ Go there
 {{< /timelineItem >}}
 
 {{< /timeline >}}
-
 
 </div>

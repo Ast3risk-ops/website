@@ -7,16 +7,13 @@ tags: ["Personal Experience"]
 type: "post"
 ---
 
+<!--more-->
+
 <style>
 .emoji {
     width: 50px;
 }
 </style>
-
-Moving to a cool new theme.
-
-<!--more-->
-
 
 ## The Beginning
 

@@ -14,16 +14,16 @@ showComments = false
 My big projects
 {{< /typeit >}}
 
-## New blendOS Docs
+## blendOS website
 
 {{< lead >}}
 Rebuilt from the ground up to be more modern and customizeable.
 {{< /lead >}}
 
-{{< gitlab baseURL="https://git.blendos.co/" projectID="28" >}}
+{{< gitlab baseURL="https://git.blendos.co/" projectID="34" >}}
 
 <br>
-{{< button href="https://blend-docs-material.pages.dev" target="_blank" >}}
+{{< button href="https://blendos.co" target="_blank" >}}
 Website
 {{< /button >}}
 

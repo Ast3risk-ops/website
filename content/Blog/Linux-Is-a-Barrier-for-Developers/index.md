@@ -7,13 +7,11 @@ tags: ["Linux", "rant"]
 type: 'post'
 ---
 
+<!--more-->
+
 {{< alert icon="clock-rotate-left" cardColor="#e63946" iconColor="#1d3557">}}
 This article is over a year old.
 {{< /alert >}}
-
-Here's why.
-
-<!--more-->
 
 -------
 
@@ -176,8 +174,6 @@ Until then, I'll stick with Windows.
 -------
 
 *Cover image taken from [FossBytes](https://fossbytes.com/).*
-
-
 
 [^2]: **U**niversal **P**ackaging **F**ormat.
 

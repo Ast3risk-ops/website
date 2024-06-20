@@ -6,15 +6,15 @@ type = 'post'
 description = "My time working with EXYQ"
 tags = ['Personal Experience']
 +++
+
+<!--more-->
+
+
 {{< alert icon="clock-rotate-left" cardColor="#e63946" iconColor="#1d3557">}}
 This article is over a year old.
 {{< /alert >}}
 
 **PLEASE READ THE VERY END OF THIS ARTICLE!**
-
-My time working with and testing EXYQ.
-
-<!--more-->
 
 -- All discord screenshots link to their original messages, and the message links require you to be in the [EXYQ discord](https://discord.gg/BeyCydh) (discord thing). --
 

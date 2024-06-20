@@ -8,6 +8,8 @@ disableTextInHeader = false
 highlightCurrentMenuArea = true
 smartTOC = true
 
+defaultBackgroundImage = "/gm_construct_ballz.jpg"
+
 [header]
 layout = "fixed"
 
@@ -34,6 +36,8 @@ showDate = true
 showComments = true
 showViews = false
 showLikes = false
+showRelatedContent = true
+showDateOnlyInArticle = true
 showDateUpdated = true
 showAuthor = true
 showHero = true
@@ -51,12 +55,14 @@ showReadingTime = true
 showTableOfContents = true
 showTaxonomies = true
 showAuthorsBadges = false
-showWordCount = true
+showWordCount = false
 showZenMode = true
 heroStyle = "background"
+showSummary = false
 
 [list]
 showHero = true
+heroStyle = "background"
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = false
@@ -75,16 +81,18 @@ excludedKinds = [ "taxonomy", "term" ]
 
 [taxonomy]
 showTermCount = true
-showHero = false
-showBreadcrumbs = false
+showHero = true
+heroStyle = "background"
+showBreadcrumbs = true
 showViews = false
 showLikes = false
 showTableOfContents = false
 cardView = true
 
 [term]
-showHero = false
-showBreadcrumbs = false
+showHero = true
+heroStyle = "background"
+showBreadcrumbs = true
 showViews = false
 showLikes = false
 showTableOfContents = true

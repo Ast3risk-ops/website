@@ -56,7 +56,9 @@ buildFuture = false
   home = ["HTML", "RSS", "JSON"]
 
 [related]
-  threshold = 0
+  contentLimit = 1
+  threshold = 80
+  includeNewer = true
   toLower = false
 
     [[related.indices]]
