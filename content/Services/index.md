@@ -25,11 +25,11 @@ External server status: https://stats.uptimerobot.com/4PWO2UYXJN
 
 Nothing illegal, and mostly unlisted.
 <br><br>
-{{< button href="https://files.asterisk.lol" target="_blank" >}}
+{{< button href="https://files.asterisk.lol" target="_blank" rel="noopener" >}}
 Go there
 {{< /button >}}
 &nbsp; 
-{{< button href="https://files.asterisk.lol/optifine" target="_blank" >}}
+{{< button href="https://files.asterisk.lol/optifine" target="_blank" rel="noopener" >}}
 Optifine Collection
 {{< /button >}}
 
@@ -39,7 +39,7 @@ Optifine Collection
 
 I use this to share code snippets and the like, powered by <a href="https://github.com/toptal/haste-server" target="_blank" rel="noopener noreferrer">Hastebin</a>.
 <br><br>
-{{< button href="https://paste.asterisk.lol" target="_blank" >}}
+{{< button href="https://paste.asterisk.lol" target="_blank" rel="noopener" >}}
 Go there
 {{< /button >}}
 
@@ -49,7 +49,7 @@ Go there
 
 I run a <a href="https://gitlab.com/timvisee/send" target="_blank" rel="noopener noreferrer">Send</a> instance.
 <br><br>
-{{< button href="https://u.asterisk.lol" target="_blank" >}}
+{{< button href="https://u.asterisk.lol" target="_blank" rel="noopener" >}}
 Go there
 {{< /button >}}
 
@@ -59,11 +59,11 @@ Go there
 
 I do uptime monitoring for select groups or individuals, as well as myself, powered by <a href="https://uptime.kuma.pet/" target="_blank" rel="noopener noreferrer">Uptime Kuma</a>.
 <br><br>
-{{< button href="https://status.asterisk.lol/status/blendos" target="_blank" >}}
+{{< button href="https://status.asterisk.lol/status/blendos" target="_blank" rel="noopener" >}}
 BlendOS Status
 {{< /button >}}
 &nbsp;
-{{< button href="https://status.asterisk.lol/status/fosstorrents" target="_blank" >}}
+{{< button href="https://status.asterisk.lol/status/fosstorrents" target="_blank" rel="noopener" >}}
 FossTorrents Status
 {{< /button >}}
 
@@ -72,7 +72,7 @@ FossTorrents Status
 {{< timelineItem icon="code" header="NoPaste" subheader="A backend-free, serverless pastebin" >}}
 It's great for embeds too!
 <br><br>
-{{< button href="https://np.asterisk.lol" target="_blank" >}}
+{{< button href="https://np.asterisk.lol" target="_blank" rel="noopener" >}}
 Go there
 {{< /button >}}
 

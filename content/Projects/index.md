@@ -23,7 +23,7 @@ Rebuilt from the ground up to be more modern and customizeable.
 {{< gitlab baseURL="https://git.blendos.co/" projectID="34" >}}
 
 <br>
-{{< button href="https://blendos.co" target="_blank" >}}
+{{< button href="https://blendos.co" target="_blank" rel="noopener" >}}
 Website
 {{< /button >}}
 
@@ -36,7 +36,7 @@ An NTLite preset to create a lightweight base ISO for any modification.
 {{< github repo="pre-book/prebook" >}}
 
 <br>
-{{< button href="https://prebook.asterisk.lol" target="_blank" >}}
+{{< button href="https://prebook.asterisk.lol" target="_blank" rel="noopener" >}}
  Website
 {{< /button >}}
 
