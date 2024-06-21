@@ -21,7 +21,7 @@ I'm not going to go over the release details. For those, go to the [release blog
 
 <h1>THIS GUIDE IS NOW IRRELEVANT!</h1>
 
-Please see the new, ISO-based install guide on our [preview docs](https://blend-docs-material.pages.dev/install/normal-pc).
+Please see the new, ISO-based install guide on the blendOS [website](https://blendos.co/install/normal-pc).
 
 {{< /alert >}}
 
