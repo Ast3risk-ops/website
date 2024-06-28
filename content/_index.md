@@ -54,12 +54,14 @@ If not, I offer great company.
 Who is actually going to sit through all these? -_-
 help me
 Some party, huh?
+DO NOT ACTIVATE LIGHT MODE!
 What is "real"?
 The things we see?
 The things we feel?
 The things we think?
 *random quotes here*
 I wish this could never end.
+MY EYES!
 Damn, I wonder how many of these I can come up with.
 I'm sure you'll find me someday.
 Ok, that's all for now.
