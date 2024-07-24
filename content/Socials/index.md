@@ -70,7 +70,7 @@ Go there
 
 {{< timelineItem icon="discord" header="Discord" subheader="Shitpost central" >}}
 
-You can see my profile I guess.
+You can see my profile I guess. I'm <code>@ast3riskinc</code>.
 <br><br>
 {{< button href="https://discord.com/users/789561823863111742" target="_blank" rel="noopener noreferrer" >}}
 Go there
