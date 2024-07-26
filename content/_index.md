@@ -69,7 +69,7 @@ Ok, that's all for now.
 
 {{< lead >}}:wave: Hi there!{{< /lead >}}
 
-I game too much. I write words onto this site sometimes.
+I game too much. I also write words onto this site sometimes. 
 
 <the-fold></the-fold>
 
