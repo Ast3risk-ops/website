@@ -1,6 +1,11 @@
+# Don't crawl Cloudflare paths
+
 User-agent: * 
 Disallow: /cgi-bin/
 Disallow: /cdn-cgi/
+
+# No AI crawlers >:(
+# See https://asterisk.lol/privacy/#generative-ai-chatgpt for more info
 
 User-agent: GPTBot
 Disallow: /
@@ -10,5 +15,10 @@ Disallow: /
 
 User-agent: ClaudeBot
 Disallow: /
+
+User-agent: SKYNET
+Disallow: /connor
+
+# It's dangerous to go alone, take this:
 
 Sitemap: https://asterisk.lol/sitemap.xml
