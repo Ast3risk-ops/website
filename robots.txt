@@ -8,4 +8,7 @@ Disallow: /
 User-agent: Google-Extended
 Disallow: /
 
+User-agent: ClaudeBot
+Disallow: /
+
 Sitemap: https://asterisk.lol/sitemap.xml
