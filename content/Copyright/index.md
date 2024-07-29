@@ -28,10 +28,10 @@ In each case, you must also follow the other terms of [the license](https://crea
 
 | Can I quote or reference posts on...                      |                                    |
 | --------------------------------------------------------- |:----------------------------------:|
-| A YouTube video?                                          | Yes, even if it's monetized.       |
-| A podcast?                                                | Sure, even if there are ads on it. |
+| A YouTube video?                                          | If it's monetized *in any way*, [contact me](/socials) for an exemption.       |
+| A podcast?                                                | If there are ads, [contaact me](/socials) for an exemption. |
 | An AI-written post (for money or not, it doesn't matter)? | **NO.**                            |
-| A paid blog post/Post on a blog with ads?                 | [Contact me](/socials).            |
+| A paid blog post/Post on a blog with ads?                 | [Contact me](/socials) for an exemption.            |
 
 I mainly don't want people directly making money from my work.
 
