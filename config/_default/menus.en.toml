@@ -30,7 +30,6 @@ weight = 9995
 
 [[main]]
 pre = "rss"
-name = "RSS"
 url = "/index.xml"
 identifier = "t6IYBgbGS7"
 weight = 9998
@@ -57,18 +56,18 @@ pre = "copyright-thin"
 name = "Copyright"
 pageRef = "copyright"
 identifier = "dacK03cUOn"
-weight = 9999
+weight = 9995
 
 [[footer]]
 pre = "circle-info"
 name = "Privacy"
 pageRef = "privacy"
 identifier = "5GBle8FZTH"
-weight = 9999
+weight = 9996
 
 [[footer]]
-pre = "rss"
-name = "RSS"
-url = "/index.xml"
-identifier = "zycpdwCi5Y"
-weight = 9999
+pre = "tag"
+name = "Tags"
+pageRef = "tags"
+identifier = "jUc07d7nzc"
+weight = 9997
