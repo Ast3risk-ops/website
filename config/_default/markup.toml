@@ -4,6 +4,12 @@
 [goldmark]
 [goldmark.renderer]
   unsafe = true
+[goldmark.parser]
+  wrapStandAloneImageWithinParagraph = false
+[goldmark.parser.attribute]
+  block = true
+  title = true
+
 
 [highlight]
   noClasses = false

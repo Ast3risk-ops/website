@@ -40,3 +40,7 @@ However, it is still recommended you [contact me](/socials) if you want an exemp
 ## Theme
 
 The Blowfish theme itself is under the [MIT License](https://github.com/nunocoracao/blowfish/blob/main/LICENSE).
+
+## Icons
+
+All icons used are made by [Font Awesome](https://fontawesome.com) and are under the [Font Awesome Free License](https://fontawesome.com/license/free).
