@@ -6,8 +6,6 @@ description = "My socials"
 layout = 'simple'
 +++
 
-<div align="center" markdown>
-
 {{< typeit 
   tag=h1
   lifeLike=true >}}
@@ -16,147 +14,40 @@ My socials
 
 {{< lead >}}Places you can reach me.{{< /lead >}}
 
-{{< timeline >}}
-{{< timelineItem icon="envelope" header="Email" subheader="No spam please.">}}
+# E-mail
 
-You can reach me below, my email is <code>me@asterisk.lol</code>.
-<br><br>
+You can email me at [`me@asterisk.lol`](mailto:me@asterisk.lol).
 
-{{< button href="mailto:me@asterisk.lol" target="_blank" rel="noopener noreferrer" >}}
-Email me
-{{< /button >}}
+If you wish to encrypt your message:
 
-{{< /timelineItem >}}
+- [{{< icon "pgpkey" >}} Main PGP key](https://i.asterisk.lol/l/pgpkey)
+- [{{< icon "pgpkey" >}} Commit signing key](https://github.com/Ast3risk-ops.gpg)
 
-{{< timelineItem icon="pgpkey" header="PGP Key" subheader="Encrypted mailings" >}}
+⚠️ **I do not use keyservers.**
 
-My current PGP key can be seen below. 
+# Messengers
 
-<br><br>
-<b>I do not use keyservers, any keys there are not really mine. If you wish to talk to me, send me your key.</b>
+- {{< icon "discord" >}} [`@ast3riskinc`](https://discord.com/users/789561823863111742)
+- {{< icon "matrix" >}} [`ast3risk:matrix.org`](https://matrix.to/#/@ast3risk:matrix.org/)
+- {{< icon "telegram" >}} [`ast3risk`](https://t.me/ast3risk)
 
-<br><br>
+# Microblogging
 
-{{< button href="https://files.asterisk.lol/publickey.asc" target="_blank" rel="noopener" >}}
-Download my PGP key
-{{< /button >}}
-&nbsp;
-{{< button href="https://i.asterisk.lol/l/pgpkey" target="_blank" rel="noopener" >}}
-View my PGP key
-{{< /button >}}
+- {{< icon "mastodon" >}} [`@asterisk@social.linux.pizza`](https://social.linux.pizza/@asterisk)
 
-{{< /timelineItem >}}
+# Git Forges
 
-{{< timelineItem icon="github" header="Github" subheader="My weird shit dumping ground" >}}
-My github profile is linked below, you can see what I've put on it <a href="/projects">here</a>.
-<br><br>
+- {{< icon "github" >}} [`Ast3risk-ops`](https://github.com/Ast3risk-ops)
+- {{< icon "gitlab" >}} [blendOS Gitlab](https://git.blendos.co/asterisk)
 
-{{< button href="https://github.com/ast3risk-ops" target="_blank" rel="noopener noreferrer" >}}
-Go there
-{{< /button >}}
+# Videos
 
-{{< /timelineItem >}}
+- {{< icon "youtube" >}} [`@ast3riskinc`](https://youtube.com/@ast3riskinc)
+- {{< icon "peertube" >}} [`asterisk@tube.asterisk.lol`](https://tube.asterisk.lol/c/asterisk/videos)
+- {{< icon "twitch" >}} [`ast3riskinc`](https://twitch.tv/ast3riskinc)
 
-{{< timelineItem icon="mastodon" header="Mastodon" subheader="I post here sometimes" >}}
+# Gaming
 
-Check it out if you want, I'm considering moving to the <a href="https://glitch-soc.github.io/docs/" target="_blank" rel="noopener noreferrer">glitch-soc</a> or <a href="https://github.com/TheEssem/mastodon" target="_blank" rel="noopener noreferrer">Chuckya</a> forks (or using <a href="https://joinsharkey.org/" target="_blank" rel="noopener noreferrer">Sharkey</a>).
-<br><br>
+- {{< icon "steam" >}} [`ast3riskinc`](https://steamcommunity.com/id/ast3riskinc)
+- {{< icon "itch" >}} [`ast3risk.itch.io`](https://ast3risk.itch.io)
 
-{{< button href="https://social.linux.pizza/@asterisk" target="_blank" rel="noopener noreferrer" >}}
-Go there
-{{< /button >}}
-
-{{< /timelineItem >}}
-
-{{< timelineItem icon="discord" header="Discord" subheader="Shitpost central" >}}
-
-You can see my profile I guess. I'm <code>@ast3riskinc</code>.
-<br><br>
-{{< button href="https://discord.com/users/789561823863111742" target="_blank" rel="noopener noreferrer" >}}
-Go there
-{{< /button >}}
-
-{{< /timelineItem >}}
-
-{{< timelineItem icon="element" header="Matrix" subheader="Encrypted chats for all" >}}
-
-Contact me.
-<br><br>
-{{< button href="https://matrix.to/#/@ast3risk:matrix.org/" target="_blank" rel="noopener noreferrer" >}}
-Go there
-{{< /button >}}
-
-{{< /timelineItem >}}
-
-{{< timelineItem icon="telegram" header="Telegram" subheader="Doxxer's Den" >}}
-I <i>did</i> hide my phone number.
-<br><br>
-{{< button href="https://t.me/ast3risk" target="_blank" rel="noopener noreferrer" >}}
-Contact Me
-{{< /button >}}
-
-{{< /timelineItem >}}
-
-{{< timelineItem icon="revolt" header="Revolt" subheader="Discord but FOSS and lacking features." badge="not checked">}}
-
-My Revolt.chat username is <code>Asterisk#8010</code>.
-
-{{< /timelineItem >}}
-
-{{< timelineItem icon="twitch" header="Twitch" subheader="I sometimes stream" >}}
-
-Check me out here on the offchance I ever do a glorified screenshare.
-<br><br>
-
-{{< button href="https://www.twitch.tv/ast3riskinc/" target="_blank" rel="noopener noreferrer" >}}
-Go there
-{{< /button >}}
-
-{{< /timelineItem >}}
-
-{{< timelineItem icon="youtube" header="YouTube" subheader="My weird videos">}}
-
-I sometimes upload here.
-<br><br>
-
-{{< button href="https://youtube.com/@ast3riskinc" target="_blank" rel="noopener noreferrer" >}}
-Go there
-{{< /button >}}
-
-{{< /timelineItem >}}
-
-{{< timelineItem icon="peertube" header="PeerTube" subheader="My YouTube channel, but on the Fediverse!" >}}
-
-It's really cool.
-<br><br>
-
-{{< button href="https://tube.asterisk.lol/c/asterisk" target="_blank" rel="noopener noreferrer" >}}
-Go there
-{{< /button >}}
-
-{{< /timelineItem >}}
-
-{{< timelineItem icon="itch" header="Itch.io" subheader="Shit games ahead" >}}
-
-I warned you.
-<br><br>
-{{< button href="https://ast3risk.itch.io" target="_blank" rel="noopener noreferrer" >}}
-Go there
-{{< /button >}}
-
-{{< /timelineItem >}}
-
-{{< timelineItem icon="steam" header="Steam" subheader="My PC gaming stats">}}
-
-<b>TRUE ULTIMATE POWER!</b>
-
-<br><br>
-{{< button href="https://steamcommunity.com/id/ast3riskinc/" target="_blank" rel="noopener noreferrer" >}}
-Go there
-{{< /button >}}
-
-{{< /timelineItem >}}
-
-{{< /timeline >}}
-
-</div>
