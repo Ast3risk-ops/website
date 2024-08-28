@@ -11,7 +11,7 @@ dateFormat = "2 January 2006"
 description = "👋 Hi there!"
 logo = "./assets/favicon-32x32.png"
 
-[author]
+[params.author]
 name = "Asterisk"
 links = [
     { github = "https://github.com/ast3risk-ops" },
