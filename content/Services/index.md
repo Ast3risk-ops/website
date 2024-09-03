@@ -18,7 +18,7 @@ Services
 
 Everything here runs on a single server in Canada, protected by Cloudflare.
   
-External server status: https://stats.uptimerobot.com/4PWO2UYXJN
+External server status: [https://stats.uptimerobot.com/4PWO2UYXJN](https://stats.uptimerobot.com/4PWO2UYXJN/796067034)
 
 {{< timeline >}}
 {{< timelineItem icon="file-zipper" header="Fileserver" subheader="My warez n stuff">}}
