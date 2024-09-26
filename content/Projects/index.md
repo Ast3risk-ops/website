@@ -30,7 +30,13 @@ Website
 ## Caltrop Network
 
 A group dedicated to hosting servers that are simple, yet fun.
-<br><br>
+
+I run the following game servers:
+
+1. [Better Than Adventure!](https://www.betterthanadventure.net): `38.133.39.27:29975`
+
+1. [Pre-Fortress 2](https://prefortress.com): [`38.133.39.27:27015`](https://ismygameserver.online/valve/38.133.39.27:27015)
+
 {{< button href="https://caltropnetwork.github.io" target="_blank" rel="noopener noreferrer" >}}
 "Website" (proper one still WIP)
 {{< /button >}}
