@@ -37,8 +37,10 @@ I run the following game servers:
 
 1. [Pre-Fortress 2](https://prefortress.com): [`38.133.39.27:27015`](steam://connect/38.133.39.27:27015)
 
-{{< button href="https://caltropnetwork.github.io" target="_blank" rel="noopener noreferrer" >}}
-"Website" (proper one still WIP)
+1. Counter-Strike: Source: [`38.133.39.27:27099`](steam://connect/38.133.39.27:27099)
+
+{{< button href="https://caltrop.asterisk.lol" target="_blank" rel="noopener" >}}
+Website
 {{< /button >}}
 &nbsp;
 {{< button href="https://discord.gg/QCNPgcSe2r" target="_blank" rel="noopener noreferrer">}}
