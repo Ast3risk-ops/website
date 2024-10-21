@@ -2,7 +2,7 @@
   <h1>My blog</h1>
 
 [![Dynamic XML Badge](https://img.shields.io/badge/dynamic/xml?url=https%3A%2F%2Fasterisk.lol%2Findex.xml&query=(%2F%2Fitem%2Ftitle%5Bstring(.)%20!%3D%20''%5D)%5B1%5D&style=flat&label=Latest%20Post&color=%238b5cf6&cacheSeconds=3600)](https://asterisk.lol/blog)
-[![License Badge](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-orange?cacheSeconds=3600)](https://github.com/Ast3risk-ops/website/blob/master/LICENSE)
+[![License Badge](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-orange?cacheSeconds=3600)](https://github.com/Ast3risk-ops/website/blob/master/LICENSE)
 
 </div>
 
@@ -84,7 +84,7 @@ Services used:
 
 ## License
 
-All blog content is under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en).
+All blog content is under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en).
 
 The blog theme is under the [MIT License](https://github.com/nunocoracao/blowfish/blob/main/LICENSE).
 
