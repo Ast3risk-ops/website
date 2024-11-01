@@ -21,7 +21,7 @@ links = [
     { element = "https://matrix.to/#/@ast3risk:matrix.org/" },
     { envelope = "mailto:me@asterisk.lol" },
     # { pgpkey = "https://i.asterisk.lol/l/pgpkey" },
-    { ellipsis-vertical = "/socials" },
+    { ellipsis-vertical = "/socials" }
 ]
 image = "asterisk_ext.png"
 headline = "Canadian Linux nerd"
