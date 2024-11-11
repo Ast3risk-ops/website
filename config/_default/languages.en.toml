@@ -14,13 +14,12 @@ logo = "./assets/favicon-32x32.png"
 [params.author]
 name = "Asterisk"
 links = [
-    { github = "https://github.com/ast3risk-ops" },
+    { github = "https://github.com/Ast3risk-ops" },
     { mastodon = "https://social.linux.pizza/@asterisk" },
     { discord = "https://discord.com/users/789561823863111742" },
     { telegram = "https://t.me/ast3risk" },
     { element = "https://matrix.to/#/@ast3risk:matrix.org/" },
     { envelope = "mailto:me@asterisk.lol" },
-    # { pgpkey = "https://i.asterisk.lol/l/pgpkey" },
     { ellipsis-vertical = "/socials" }
 ]
 image = "asterisk_ext.png"
