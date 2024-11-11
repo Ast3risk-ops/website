@@ -5,7 +5,7 @@ Disallow: /cgi-bin/
 Disallow: /cdn-cgi/
 
 # No AI crawlers >:(
-# See https://asterisk.lol/privacy/#generative-ai-chatgpt for more info
+# See https://asterisk.lol/copyright/#generative-ai-chatgpt for more info
 
 User-agent: GPTBot
 Disallow: /
