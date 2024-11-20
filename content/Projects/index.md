@@ -37,11 +37,8 @@ I run the following game servers:
 
 1. [Pre-Fortress 2](https://prefortress.com): [`38.133.39.27:27015`](steam://connect/38.133.39.27:27015)
 
-<<<<<<< HEAD
 1. Counter-Strike: Source: [`38.133.39.27:27099`](steam://connect/38.133.39.27:27099)
 
-=======
->>>>>>> 1a3ac5103d6107a483ffc18f6bc213751626618e
 {{< button href="https://caltrop.asterisk.lol" target="_blank" rel="noopener" >}}
 Website
 {{< /button >}}
