@@ -43,14 +43,6 @@ Website
 
 A group dedicated to hosting servers that are simple, yet fun.
 
-I run the following game servers:
-
-1. [Better Than Adventure!](https://www.betterthanadventure.net): `38.133.39.27:29975`
-
-1. [Pre-Fortress 2](https://prefortress.com): [`38.133.39.27:27015`](steam://connect/38.133.39.27:27015)
-
-1. Counter-Strike: Source: [`38.133.39.27:27099`](steam://connect/38.133.39.27:27099)
-
 {{< button href="https://caltrop.asterisk.lol" target="_blank" rel="noopener" >}}
 Website
 {{< /button >}}
