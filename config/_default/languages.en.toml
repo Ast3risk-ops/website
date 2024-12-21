@@ -19,7 +19,9 @@ links = [
     { discord = "https://discord.com/users/789561823863111742" },
     { telegram = "https://t.me/ast3risk" },
     { element = "https://matrix.to/#/@ast3risk:matrix.org/" },
+    { steam = "https://steamcommunity.com/id/ast3riskinc" },
     { envelope = "mailto:me@asterisk.lol" },
+    { pgpkey = "https://i.asterisk.lol/l/pgpkey"},
     { ellipsis-vertical = "/socials" }
 ]
 image = "asterisk_ext.png"
