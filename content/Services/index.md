@@ -45,16 +45,6 @@ Go there
 
 {{< /timelineItem >}}
 
-{{< timelineItem icon="cloud-arrow-up" header="ShareBox" subheader="Simple, encrypted file sharing">}}
-
-I run a <a href="https://gitlab.com/timvisee/send" target="_blank" rel="noopener noreferrer">Send</a> instance.
-<br><br>
-{{< button href="https://u.asterisk.lol" target="_blank" rel="noopener" >}}
-Go there
-{{< /button >}}
-
-{{< /timelineItem >}}
-
 {{< timelineItem icon="satellite-dish" header="StatusBox" subheader="My personal Uptime Kuma instance">}}
 
 I do uptime monitoring for select groups or individuals, as well as myself, powered by <a href="https://uptime.kuma.pet/" target="_blank" rel="noopener noreferrer">Uptime Kuma</a>.
