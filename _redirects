@@ -1,2 +1,3 @@
-/.well-known/host-meta* https://fed.brid.gy/.well-known/host-meta:splat
-/.well-known/webfinger* https://fed.brid.gy/.well-known/webfinger
+/.well-known/webfinger https://social.asterisk.lol/.well-known/webfinger
+/.well-known/host-meta https://social.asterisk.lol/.well-known/host-meta
+/.well-known/nodeinfo https://social.asterisk.lol/.well-known/nodeinfo
