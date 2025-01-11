@@ -1,9 +1,8 @@
 +++
-title = ''
+title = 'My Projects'
 description = 'My personal projects'
 date = 2024-01-21T14:37:33-05:00
 draft = false
-layout = 'simple'
 showComments = false
 +++
 

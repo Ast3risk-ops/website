@@ -1,18 +1,12 @@
 +++
-title = ''
+title = 'Services'
 description = 'Services I run'
 date = 2024-01-28T14:41:16-05:00
 draft = false
-layout = 'simple'
+showComments = false
 +++
 
 <div align="center">
-{{< typeit
-  tag=h1
-  lifeLike=true
->}}
-Services
-{{< /typeit >}}
 
 {{< lead >}}I run this cool stuff.{{< /lead >}}
 
