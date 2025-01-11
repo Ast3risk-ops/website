@@ -3,6 +3,6 @@
     "optimize": "jampack --nocache --exclude 'js/**' ./public"
   },
   "dependencies": {
-    "@divriots/jampack": "^0.32.0"
+    "@divriots/jampack": "^0.33.0"
   }
 }
