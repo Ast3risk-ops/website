@@ -103,7 +103,7 @@ SpotX on scoop's NonPortable bucket was never fixed, so I fixed it and incorpora
 ## Example Files
 
 {{< lead >}}
-Example files and folders to use to test icon themes, put under the Unlicense.
+Example files and folders to use to test icon themes.
 {{< /lead >}}
 
 {{< github repo="ast3risk-ops/example-files" >}}
