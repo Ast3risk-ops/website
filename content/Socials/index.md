@@ -23,7 +23,7 @@ If you wish to encrypt your message (I don't use keyservers):
 
 ## Messengers
 
- {{< icon "discord" >}} [`@ast3riskinc`](https://discord.com/users/789561823863111742)
+ {{< icon "discord" >}} `@ast3riskinc`
  
  {{< icon "matrix" >}} [`ast3risk:matrix.org`](https://matrix.to/#/@ast3risk:matrix.org/)
 
