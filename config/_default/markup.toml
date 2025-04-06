@@ -10,7 +10,6 @@
   block = true
   title = true
 
-
 [highlight]
   noClasses = false
 

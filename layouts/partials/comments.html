@@ -1,3 +1,65 @@
+{{ if or .Params.hackernews .Params.reddit .Params.lemmy .Params.lobsters .Params.mastodon }}
+<br><h2 class="font-extrabold" style="font-size: 28px !important;">Discuss</h2>
+<br><p>Join the discussion on the following platforms:</p><br>
+{{ if .Params.hackernews }}
+&nbsp;
+<a
+  class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+  href={{.Params.hackernews}}
+  target="_blank"
+  rel="noopener noreferrer"
+>
+<span class="inline-block align-text-bottom">{{ partial "icon.html" "hackernews" }}</span>&nbsp; Hacker News
+</a>
+{{ end }}
+{{ if .Params.reddit }}
+&nbsp;
+<a
+  class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+  href={{.Params.reddit}}
+  target="_blank"
+  rel="noopener noreferrer"
+>
+<span class="inline-block align-text-bottom">{{ partial "icon.html" "reddit" }}</span>&nbsp; Reddit
+</a>
+{{ end }}
+{{ if .Params.lemmy }}
+&nbsp;
+<a
+  class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+  href={{.Params.lemmy}}
+  target="_blank"
+  rel="noopener noreferrer"
+>
+<span class="inline-block align-text-bottom">{{ partial "icon.html" "lemmy" }}</span>&nbsp; Lemmy
+</a>
+{{ end }}
+{{ if .Params.lobsters }}
+&nbsp;
+<a
+  class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+  href={{.Params.lobsters}}
+  target="_blank"
+  rel="noopener noreferrer"
+>
+<span class="inline-block align-text-bottom">{{ partial "icon.html" "lobsters" }}</span>&nbsp; Lobsters
+</a>
+{{ end }}
+{{ if .Params.mastodon }}
+&nbsp;
+<a
+  class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+  href={{.Params.mastodon}}
+  target="_blank"
+  rel="noopener noreferrer"
+>
+<span class="inline-block align-text-bottom">{{ partial "icon.html" "mastodon" }}</span>&nbsp; Mastodon
+</a>
+{{ end }}
+<br><br>
+<p>or use the comments box below:</p>
+<br>
+{{ end }}
 <script src="https://giscus.app/client.js" data-repo="ast3risk-ops/website" data-repo-id="R_kgDOLIwLKA"
     data-category="Giscus" data-category-id="DIC_kwDOLIwLKM4Cco6N" data-mapping="pathname" data-strict="0"
     data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme" data-lang="en"
