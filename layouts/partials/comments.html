@@ -1,6 +1,6 @@
 {{ if or .Params.hackernews .Params.reddit .Params.lemmy .Params.lobsters .Params.mastodon }}
-<br><h2 class="font-extrabold" style="font-size: 28px !important;">Discuss</h2>
-<br><p>Join the discussion on the following platforms:</p><br>
+<br><h2 class="font-extrabold" style="font-size: 28px !important;">Join the discussion!</h2>
+<br><br>
 {{ if .Params.hackernews }}
 &nbsp;
 <a
@@ -57,8 +57,7 @@
 </a>
 {{ end }}
 <br><br>
-<p>or use the comments box below:</p>
-<br>
+<h2 class="font-extrabold" style="font-size: 28px !important;">Comments</h2><br>
 {{ end }}
 <script src="https://giscus.app/client.js" data-repo="ast3risk-ops/website" data-repo-id="R_kgDOLIwLKA"
     data-category="Giscus" data-category-id="DIC_kwDOLIwLKM4Cco6N" data-mapping="pathname" data-strict="0"
