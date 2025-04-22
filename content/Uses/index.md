@@ -21,7 +21,7 @@ showComments = false
 - [Zen Browser](https://zen-browser.app) (the best browser)
 - [Ghostwriter](https://kde.github.io/ghostwriter/) (writing)
 - [Obsidian](https://obsidian.md) (notes)
-- [Elisa](https://apps.kde.org/elisa/) (music, yes I keep all my music locally)
+- [Fooyin](https://www.fooyin.org/) (music, yes I keep all my music locally)
 - [VSCode](https://code.visualstudio.com/) (I should switch to vscodium)
 
 ## Frameworks
