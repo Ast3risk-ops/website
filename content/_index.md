@@ -73,7 +73,7 @@ I game too much. I also write words onto this site sometimes.
 
 <the-fold></the-fold>
 
-{{< list title="Recent Posts" limit=5 where="Type" value="post" >}}
+{{< list title="Recent Posts" limit=5 where="Type" value="post" cardView="false" >}}
 
 {{< button href="/blog" target="_self" >}}
 All Posts
