@@ -92,4 +92,4 @@ The blog theme is under the [MIT License](https://github.com/nunocoracao/blowfis
 
 All my content is written by me.
 
-[![notbyai](https://i.asterisk.lol/u/KF8SeS.png)](https://notbyai.fyi)
+[![notbyai](https://asterisk.lol/notbyai-black.png)](https://notbyai.fyi)
