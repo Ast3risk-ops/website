@@ -18,6 +18,7 @@ links = [
     { mastodon = "https://social.linux.pizza/@asterisk" },
     { discord = "https://discord.com/users/789561823863111742" },
     { element = "https://matrix.to/#/@ast3risk:matrix.org/" },
+    { signal = "/socials#messengers" },
     { steam = "https://steamcommunity.com/id/ast3riskinc" },
     { envelope = "mailto:me@asterisk.lol" },
     { pgpkey = "https://i.asterisk.lol/l/pgpkey"},

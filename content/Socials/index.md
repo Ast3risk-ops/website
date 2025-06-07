@@ -24,6 +24,8 @@ If you wish to encrypt your message (I don't use keyservers):
 ## Messengers
 
  {{< icon "discord" >}} `@ast3riskinc`
+
+ {{< icon "signal" >}} `@asterisk.02`
  
  {{< icon "matrix" >}} [`ast3risk:matrix.org`](https://matrix.to/#/@ast3risk:matrix.org/)
 
