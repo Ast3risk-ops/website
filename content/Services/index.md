@@ -44,7 +44,7 @@ Go there
 I do uptime monitoring for select groups or individuals, as well as myself, powered by <a href="https://uptime.kuma.pet/" target="_blank" rel="noopener noreferrer">Uptime Kuma</a>.
 <br><br>
 {{< button href="https://status.asterisk.lol/status/blendos" target="_blank" rel="noopener" >}}
-BlendOS Status
+blendOS Status
 {{< /button >}}
 &nbsp;
 {{< button href="https://status.asterisk.lol/status/fosstorrents" target="_blank" rel="noopener" >}}

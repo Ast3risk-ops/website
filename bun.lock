@@ -3,7 +3,7 @@
   "workspaces": {
     "": {
       "dependencies": {
-        "@divriots/jampack": "^0.33.0",
+        "@divriots/jampack": "^0.33.1",
       },
     },
   },

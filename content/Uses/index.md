@@ -8,21 +8,20 @@ showComments = false
 
 ## Hardware
 
-- Dell Inspiron 15 7000 Gaming
-  - {{< icon "microchip" >}} 8x Intel® Core™ i7-7700HQ CPU @ 2.80GHz
-  - {{< icon "memory" >}} 32 GB
-  - {{< icon "gpu" >}} NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2
+- Framework Laptop 16
+  - {{< icon "microchip" >}} AMD Ryzen 7 7840HS (16) @ 3.80 GHz
+  - {{< icon "memory" >}} 64 GB
+  - {{< icon "gpu" >}} AMD Radeon RX 7700S [Discrete] & AMD Radeon 780M Graphics [Integrated]
   - {{< icon "computer" >}} EndeavourOS Linux
-  - {{< icon "desktop" >}} KDE Plasma 6 (X11)
+  - {{< icon "desktop" >}} KDE Plasma 6 (Wayland)
 
 ## Software
 
-- [Waveterm](https://waveterm.dev) (writing posts, other terminal stuff)
 - [Zen Browser](https://zen-browser.app) (the best browser)
 - [Ghostwriter](https://kde.github.io/ghostwriter/) (writing)
 - [Obsidian](https://obsidian.md) (notes)
-- [Fooyin](https://www.fooyin.org/) (music, yes I keep all my music locally)
-- [VSCode](https://code.visualstudio.com/) (I should switch to vscodium)
+- [Fooyin](https://www.fooyin.org/) & [Jellyfin](https://jellyfin.org) (music, yes I keep all my music locally)
+- [VSCodium](https://vscodium.com/)
 
 ## Frameworks
 
