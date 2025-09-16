@@ -27,7 +27,7 @@ If you wish to encrypt your message (I don't use keyservers):
 
  {{< icon "signal" >}} `@asterisk.02`
  
- {{< icon "matrix" >}} [`ast3risk:matrix.org`](https://matrix.to/#/@ast3risk:matrix.org/)
+ {{< icon "matrix" >}} [`@ast3risk:matrix.org`](https://matrix.to/#/@ast3risk:matrix.org/)
 
 ## Microblogging
 
