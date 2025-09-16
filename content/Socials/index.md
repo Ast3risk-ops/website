@@ -44,8 +44,6 @@ If you wish to encrypt your message (I don't use keyservers):
  {{< icon "youtube" >}} [`@ast3riskinc`](https://youtube.com/@ast3riskinc)
  
  {{< icon "peertube" >}} [`asterisk@tube.asterisk.lol`](https://tube.asterisk.lol/c/asterisk/videos)
- 
- {{< icon "twitch" >}} [`ast3riskinc`](https://twitch.tv/ast3riskinc)
 
 ## Gaming
 
