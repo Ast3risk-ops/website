@@ -50,4 +50,9 @@ If you wish to encrypt your message (I don't use keyservers):
  {{< icon "steam" >}} [`ast3riskinc`](https://steamcommunity.com/id/ast3riskinc)
  
  {{< icon "itch" >}} [`ast3risk.itch.io`](https://ast3risk.itch.io)
+
+
+## Other
+
+ {{< icon "internetarchive" >}} [`@ast3riskinc`](https://archive.org/details/@ast3riskinc)
 </div>

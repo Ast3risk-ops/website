@@ -16,6 +16,7 @@ name = "Asterisk"
 links = [
     { github = "https://github.com/Ast3risk-ops" },
     { fediverse = "https://social.linux.pizza/@asterisk" },
+    { internetarchive = "https://archive.org/details/@ast3riskinc" },
     { discord = "https://discord.com/users/789561823863111742" },
     { matrix = "https://matrix.to/#/@ast3risk:matrix.org/" },
     { signal = "/socials#messengers" },
