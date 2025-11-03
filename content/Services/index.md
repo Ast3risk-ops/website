@@ -29,16 +29,6 @@ Optifine Collection
 
 {{< /timelineItem >}}
 
-{{< timelineItem icon="terminal" header="PasteBox" subheader="My personal pastebin">}}
-
-I use this to share code snippets and the like, powered by <a href="https://github.com/toptal/haste-server" target="_blank" rel="noopener noreferrer">Hastebin</a>.
-<br><br>
-{{< button href="https://paste.asterisk.lol" target="_blank" rel="noopener" >}}
-Go there
-{{< /button >}}
-
-{{< /timelineItem >}}
-
 {{< timelineItem icon="satellite-dish" header="StatusBox" subheader="My personal Uptime Kuma instance">}}
 
 I do uptime monitoring for select groups or individuals, as well as myself, powered by <a href="https://uptime.kuma.pet/" target="_blank" rel="noopener noreferrer">Uptime Kuma</a>.
