@@ -16,13 +16,10 @@ draft = false
 <meta property="og:title" content="Asterisk's Den">
 <meta property="og:description" content="👋 Hi there!">
 
-
 <meta property="twitter:domain" content="asterisk.lol">
 <meta property="twitter:url" content="https://asterisk.lol">
 <meta name="twitter:title" content="Asterisk's Den">
 <meta name="twitter:description" content="👋 Hi there!">
-
-
 
 <!-- Hey, no peeking >:( -->
 
@@ -51,7 +48,7 @@ Add text here!
 Thank you for coming.
 I'm sure they will see you soon.
 If not, I offer great company.
-Who is actually going to sit through all these? -_-
+Who is actually going to sit through all these? -\_-
 help me
 Some party, huh?
 DO NOT ACTIVATE LIGHT MODE!
@@ -59,7 +56,7 @@ What is "real"?
 The things we see?
 The things we feel?
 The things we think?
-*random quotes here*
+_random quotes here_
 I wish this could never end.
 MY EYES!
 Damn, I wonder how many of these I can come up with.
@@ -67,9 +64,13 @@ I'm sure you'll find me someday.
 Ok, that's all for now.
 {{< /typeit >}}
 
+<div align="center">
+<a href="https://statusbadges.me/"><img src="https://api.statusbadges.me/badge/status/789561823863111742" alt="status"></a>
+</div>
+
 {{< lead >}}:wave: Hi there!{{< /lead >}}
 
-I game too much. I also write words onto this site sometimes. 
+I game too much. I also write words onto this site sometimes.
 
 <the-fold></the-fold>
 
