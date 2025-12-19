@@ -123,7 +123,7 @@ Compared to my old blog theme, this is missing certain shortcodes or features bu
 
 I've been able to use this to make a decent site that's more than a blog or a <abbr title="Link In Bio, think Linktree, solo.to or bio.link">LIB</abbr> site, while being simple to edit and maintain and looking good. I can edit content in local markdown editors (Markdown CMSes like Decap I find weird and unnecessary), license it myself and have full control over my content, all while keeping a modern appearance.
 
-It also gets people to ask if I made this myself because nobody checks the footer. This [theme](https://blowfish.page) was made by [Nuno Coração](https://n9o.xyz), by the way. {{< figure src="tro.webp" class="emoji" nozoom=true  >}}
+It also gets people to ask if I made this myself because nobody checks the footer. This [theme](https://blowfish.page) was made by [Nuno Coração](https://n9o.xyz), by the way. <!-- {{< figure src="tro.webp" class="emoji" nozoom=true >}} -->
 
 It's a hell of a lot more professional, and it *works*.
 
