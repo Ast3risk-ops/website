@@ -72,6 +72,8 @@ Ok, that's all for now.
 
 I game too much. I also write words onto this site sometimes.
 
+[{{< icon "rss" >}} RSS feed](/index.xml)
+
 <the-fold></the-fold>
 
 {{< list title="Recent Posts" limit=5 where="Type" value="post" >}}
