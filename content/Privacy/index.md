@@ -15,8 +15,6 @@ Privacy
 
 - I use [**Umami Analytics**](https://umami.is) (self hosted at `t.asterisk.lol`) on this site. These are anonymous, privacy-conscious analytics that give me basic metrics. To view what kinds of data I collect, see the [**Umami demo**](https://analytics.umami.is/share/LGazGOecbDtaIwDr/umami.is).
 
-- I also use [**Cloudflare Browser Insights**](https://www.cloudflare.com/application-services/products/website-optimization/) to measure how fast pages load for users (only works on Chromium-based browsers for now).
-
 - My comments section is powered by **Github** and is subject to the [**Github Privacy Policy**](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
 
 - Any external embeds will be subject to their respective terms.
