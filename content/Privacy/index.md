@@ -13,7 +13,7 @@ layout = 'simple'
 Privacy
 {{< /typeit >}}
 
-- I use [**Umami Analytics**](https://umami.is) (self hosted at `t.asterisk.lol`) on this site. These are anonymous, privacy-conscious analytics that give me basic metrics. To view what kinds of data I collect, see the [**Umami demo**](https://analytics.umami.is/share/LGazGOecbDtaIwDr/umami.is).
+- I use [**Umami Analytics**](https://umami.is) (self hosted at `t.asterisk.lol`) on this site. These are anonymous, privacy-conscious analytics that give me basic metrics.
 
 - My comments section is powered by **Github** and is subject to the [**Github Privacy Policy**](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
 
