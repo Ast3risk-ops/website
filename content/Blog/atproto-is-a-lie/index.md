@@ -348,7 +348,7 @@ Communication networks are a wholesome meal that satisfies you, social networks 
 
 ## Conclusion
 
-![So you're saying we can just add a bunch of words to a website and people will think we're socially-minded geniuses?](posts/bluesky/words.png "Image from [Death Generator](https://deathgenerator.com), using assets from [SOFEL](https://en.wikipedia.org/wiki/SOFEL).")
+![Two pixelated businesspeople, one smiling in a blue suit, the other smirking in a grey suit. One says to the other: 'So you’re saying we can just add a bunch of words to a website and people will think we’re socially-minded geniuses?'](posts/bluesky/words.png "Image from [Death Generator](https://deathgenerator.com), using assets from [SOFEL](https://en.wikipedia.org/wiki/SOFEL).")
 
 Bluesky doesn't change a thing from the networks it claims to be different from. It is not a novel open network, and simply propagates the problems of Silicon Valley startup grifting, social media division, corporate control, and {{< nutshell title="corporate Open Source." href="https://ploum.net/2023-06-19-more-rms.html" >}} It does not connect anyone, it is not billionaire proof, and every single user is being slow-cooked like an ignorant frog.
 
