@@ -1,5 +1,5 @@
 +++
-title = 'ATProto is a Lie'
+title = 'ATProto (Bluesky) is a Lie'
 description = 'Why Bluesky and ATProto at large will fall just like Twitter.'
 date = 2026-02-01T16:34:18-04:00
 draft = false
