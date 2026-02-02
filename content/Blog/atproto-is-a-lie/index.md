@@ -16,6 +16,9 @@ Background image by Unknown Author (found on [PeakPx](https://www.peakpx.com/en/
 
 *If JavaScript is unavailable, you will see all local Nutshells listed below. External Nutshells will become standard links.*
 
+>[!note] Corrections
+>Corrected AppView definition and implications, The AppView is a central API that handles ingesting, webapps then pull from that. It's actually worse than what I originally thought.
+
 # :x Nutshells
 
 <noscript>
@@ -65,7 +68,7 @@ From there the company began operating on an invite system and wasn't actually d
 ><dt>Relay</dt>
 ><dd>Indexes all the PDSes to create the <b>Firehose</b>, an aggregation of all data passing through the network. Not required, but useful at scale or to quickly join an AppView to the whole network.
 ><dt>AppView</dt>
-><dd>The website or API you or your mobile app interacts with. It fetches your user data from your PDS, and other activity from the Firehose. Each AppView can be a whole different service, the most popular is currently <a href="https://bsky.app" target="_blank" rel="noopener noreferrer">bsky.app</a>, which also powers the Bluesky mobile apps.</dd>
+><dd>The API that ingests data from the PDS. It fetches your user data from your PDS, and other activity from the Firehose. Apps can then fetch data from these AppViews. The most popular is `api.bsky.app`.</dd>
 {icon="book-open"}
 
 Here's how ATProto is typically pictured:
@@ -112,11 +115,13 @@ Your browser either does not support the video tag or the VP9 codec.
 </video>
 <figcaption>Not only is that text small, I have no idea what other servers there are and this tells me nothing.</figcaption>
 
-The typical defence is that other PDS hosts run their own AppViews where people can sign up to that PDS host, but most people are still exposed to ATProto through Bluesky's landing page and branding, which takes them to [bsky.app](https://bsky.app). The fact that they don't advertise alternative options there doesn't inspire confidence in the company or its shareholders.
+The typical defence is that other PDS hosts run their own webapps where people can sign up to that PDS host, but most people are still exposed to ATProto through Bluesky's landing page and branding, which takes them to [bsky.app](https://bsky.app). The fact that they don't advertise alternative options there doesn't inspire confidence in the company or its shareholders.
 
-Large AppViews are very familiar to people (like Twitter or Reddit are to their userbase), and it'd be very difficult to convince people to leave if Bluesky decided to make unfavorable changes simply because that AppView is familiar.
+Large webapps are very familiar to people (like Twitter or Reddit are to their userbase), and it'd be very difficult to convince people to leave if Bluesky decided to make unfavorable changes simply because that webapp is familiar.
 
-This "interface problem" is a layer of centralization present in ATProto (and crypto-powered stuff too) that nobody really thinks about. The AppView is what brings everything together, putting enormous power in the hands of AppView operators. Operators can hide, edit, or promote things at their leisure, and if they're the only AppView for their software then users are even more screwed.
+Most apps also ingest data from the main AppView, `api.bsky.app`, which most PDSes proxy data to.
+
+This "interface problem" is a layer of centralization present in ATProto (and crypto-powered stuff too) that nobody really thinks about. The AppView is what brings everything together, putting enormous power in the hands of AppView and webapp operators. Operators can hide, edit, or promote things at their leisure, and if they're the main AppView that PDSes connect to, they're screwed.
 
 AppViews also serve far more users than a simple federated instance, meaning any changes or downtime have far wider ramifications than just affecting one group of users.
 
@@ -241,7 +246,7 @@ DMs are also hosted separately and aren't encrypted.
 
 ### PLCs: Centralized Instance Identifiers
 
-Most links to Bluesky profiles use the `did:plc` instead of the `did:web` or `profile` syntax. A PLC is a persistent ID that points to your profile regardless of username changes, intended to be more resilient than a username. It uses a keypair to tie a PLC to a user account. There is one and only one PLC [directory](https://web.plc.directory), which Bluesky PBLLC has full control over. They can choose to invalidate every single link to your profile or posts from every AppView at any time.
+Most links to Bluesky profiles use the `did:plc` instead of the `did:web` or `profile` syntax. A PLC is a persistent ID that points to your profile regardless of username changes, intended to be more resilient than a username. It uses a keypair to tie a PLC to a user account. There is one and only one PLC [directory](https://web.plc.directory), which Bluesky PBLLC has full control over. They can choose to invalidate every single link to your profile or posts from every app at any time.
 
 `did:web` is a more decentralized but less resilient option, which just links directly to your username. However, you must be careful because you only have one shot at this. If you need to delete your account and start over (which will probably happen because the documentation is horrid and missing important steps), your PDS will be ["burned"](https://github.com/bluesky-social/atproto/issues/3455) by Bluesky's AppView and will become completely inaccessible. Nobody on Bluesky can see it, and its owner cannot log in. This happened to one user, who only got it fixed by manual intervention because someone at Bluesky saw their [blog post](https://notes.nora.codes/atproto-again/) about it on Hacker News.
 
@@ -269,7 +274,7 @@ And if you had to login to your recipient's mailserver for e-mail, wouldn't it b
 
 In real life, many people self-host their own e-mail servers and mailing lists, and there are several commercial e-mail providers you can choose from as well.
 
-Another detail with ATProto is that posts just get lost. If you use [bsky.app](https://bsky.app), you can't directly view Tangled repos or Leaflet blogs (as in the full content, not just a link) and vice versa (Leaflet doesn't let you follow Bluesky accounts and use that as your only feed). This is data loss at a fundamental level. It does not matter if the data is in your PDS when you need two different AppViews to see two different data sets[^2]. ATProto is no more connected than Twitter and Instagram.
+Another detail with ATProto is that posts just get lost. If you use [bsky.app](https://bsky.app), you can't directly view Tangled repos or Leaflet blogs (as in the full content, not just a link) and vice versa (Leaflet doesn't let you follow Bluesky accounts and use that as your only feed). This is data loss at a fundamental level. It does not matter if the data is in your PDS when you need two different apps connecting to one unified AppView to see two different data sets[^2]. ATProto is no more connected than Twitter and Instagram.
 
 
 ### "Television 2.0"
@@ -312,11 +317,11 @@ They also chose to incorporate as a for-profit. Bluesky is a PBC, which accordin
 
 However, PBLLCs in Delaware (where Bluesky is incorporated) are not subject to any special requirements compared to standard LLCs. Bluesky is also not a certified [B Corporation](https://www.bcorporation.net/en-us/standards/) (though this wouldn't mean too much anyway because bribery works wonders) and does not even publish <abbr title="A report PBCs should publish about how they help their stakeholders.">benefit reports</abbr>. Therefore, the PBLLC moniker means absolutely nothing and is a complete marketing ploy to get you to think they care about their users. In contrast, Mastodon is a registered nonprofit in the U.S. (but had its nonprofit status [revoked in Germany](https://blog.joinmastodon.org/2024/04/mastodon-forms-new-u.s.-non-profit/) for unknown reasons), and the <abbr title="ATProto username system">DID</abbr> and ActivityPub protocols were made by the nonprofit W3C.
 
-Bluesky has every incentive to make fat stacks of cash off of the whole network they spawned. Their Firehose is a centralized infinite stream of pure content that they could sell to AI companies (though right now they can just take it for free). Their AppView is a prime spot for ads and other bad changes. Their userbase on their PDSes is a prime resource they could monetize. Their PDS implementation is the most used PDS software and hardcodes their AppView already.
+Bluesky has every incentive to make fat stacks of cash off of the whole network they spawned. Their Firehose is a centralized infinite stream of pure content that they could sell to AI companies (though right now they can just take it for free). Their web client is a prime spot for ads and other bad changes. Their userbase on their PDSes is a prime resource they could monetize. Their PDS implementation is the most used PDS software and hardcodes their AppView already.
 
 ![The Postal Dude doing a middle finger with the caption "FUCK YOU"](posts/bluesky/postaldude.png "Bluesky to every single user.")
 
-Their Terms Of Service and Privacy Policy are extremely malleable. DMs are still not on ATProto, locking people into Bluesky's AppView for them (they can also be, you know, *read by anyone at Bluesky*). Every Silicon Valley startup has had to face the difficult task of monetizing or risking bankruptcy.
+Their Terms Of Service and Privacy Policy are extremely malleable. DMs are still not on ATProto, locking people into Bluesky's web client for them (they can also be, you know, *read by anyone at Bluesky*). Every Silicon Valley startup has had to face the difficult task of monetizing or risking bankruptcy.
 
 The question is not if, but when.
 
