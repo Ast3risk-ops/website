@@ -285,7 +285,7 @@ Another detail with ATProto is that posts just get lost. If you use [bsky.app](h
 >
 >We dreamed of decentralised social networks as "email 2.0." They truly are "television 2.0."
 >
->\- Ploum, [How We Lost Communication to Entertainment](https://ploum.net/2025-12-15-communication-entertainment.html) (text licensed under [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en))
+>\- Ploum, [How We Lost Communication to Entertainment](https://ploum.net/2025-12-15-communication-entertainment.html) (text licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en))
 
 Bluesky loves to claim that it is open. However, anybody who believes that hogwash has never seen the failures of Silicon Valley blitzscaling. The company owns the entire network, and there's no wordplay that you can use to change that. Their commanding presence is not a current issue or an accident. It's entirely intentional. Neo did not give them money to build something that would ultimately lose them money. 
 
@@ -333,7 +333,7 @@ Though, people will surely leave if things get bad, right? There are even migrat
 >
 >Now that I write it, it may also explain why instant messaging became the dominant communication medium: because if you don’t receive an immediate answer, you don’t even trust the recipient to have received your messages. In fact, even if the message was received, you don’t even trust the recipient's attention span to remember the message.
 >
->\- Ploum, [How We Lost Communication to Entertainment](https://ploum.net/2025-12-15-communication-entertainment.html) (text licensed under [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en))
+>\- Ploum, [How We Lost Communication to Entertainment](https://ploum.net/2025-12-15-communication-entertainment.html) (text licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en))
 
 Some neckbeards may even wonder how such a platform and mindset even got popular in the first place. The simple answer is that communication protocols are boring. Simple websites and RSS are boring. E-mail is boring. A. Square wrote on his gemlog comparing social media feeds to food:
 
