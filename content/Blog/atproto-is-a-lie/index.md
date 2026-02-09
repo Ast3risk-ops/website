@@ -5,6 +5,8 @@ date = 2026-02-01T16:34:18-04:00
 draft = false
 tags = ['Bluesky', 'Fediverse']
 type = 'post'
+series = ["Bluesky"]
+series_order = 1
 +++
 
 <!--more-->
