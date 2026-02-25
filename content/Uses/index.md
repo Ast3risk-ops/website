@@ -17,7 +17,7 @@ showComments = false
 
 ## Software
 
-- [Zen Browser](https://zen-browser.app) (the best browser)
+- [Trivalent](https://github.com/secureblue/Trivalent) (Still more secure than Firefox, if Firefox ever gets secure I'm switching right back)
 - [Ghostwriter](https://kde.github.io/ghostwriter/) (writing)
 - [Obsidian](https://obsidian.md) (notes)
 - [Fooyin](https://www.fooyin.org/) & [Jellyfin](https://jellyfin.org) (music, yes I keep all my music locally)
