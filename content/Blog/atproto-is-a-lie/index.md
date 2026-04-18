@@ -32,7 +32,7 @@ These are all the Nutshells that were used in the post.
 
 {{< nutwarn >}}
 
-Blitzscaling, based on the German warfare strategy of *blitzkrieg*, consists of raising a ton of venture capital funding, then using that funding to survive while undercutting your competitors. Once all competition is dead, you jack prices back up and strangle your newfound userbase, who will still stay with your service due to how familiar it is.
+Blitzscaling, based on the German warfare strategy of [:blitzkrieg](https://en.wikipedia.org/wiki/Blitzkrieg), consists of raising a ton of venture capital funding, then using that funding to survive while undercutting your competitors. Once all competition is dead, you jack prices back up and strangle your newfound userbase, who will still stay with your service due to how familiar it is.
 
 The most notable example of this strategy is DoorDash, who ended up being the top food delivery app despite entering the market very late. They paid their drivers well and sold food cheaply up until they had enough of a monopoly, where they became the scumbag company they're known as today.
 
