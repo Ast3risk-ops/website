@@ -64,10 +64,6 @@ I'm sure you'll find me someday.
 Ok, that's all for now.
 {{< /typeit >}}
 
-<div align="center">
-<a href="https://statusbadges.me/"><img src="https://api.statusbadges.me/badge/status/789561823863111742" alt="status"></a>
-</div>
-
 {{< lead >}}:wave: Hi there!{{< /lead >}}
 
 I game too much. I also write words onto this site sometimes.
