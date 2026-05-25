@@ -4,3 +4,4 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: fullscreen=(), geolocation=()
+  Access-Control-Allow-Origin: *
