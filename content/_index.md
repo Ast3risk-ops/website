@@ -68,7 +68,7 @@ Ok, that's all for now.
 
 I game too much. I also write words onto this site sometimes.
 
-[{{< icon "rss" >}} RSS feed](/index.xml)
+<a href="/index.xml">{{< icon "rss" >}} RSS feed</a>
 
 <the-fold></the-fold>
 

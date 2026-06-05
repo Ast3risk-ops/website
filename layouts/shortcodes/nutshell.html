@@ -1,2 +1,10 @@
 <!-- Shortcode used because the links appear white by default -->
-<a href='{{ $.Get "href"}}' style="color: var(--tw-prose-links)">:{{ $.Get "title" }}</a>
+{{ $url := $.Get "href" }}
+{{ $parsedURL := urls.Parse $url }}
+{{- $isExternal := or (strings.HasPrefix $url "http:") (strings.HasPrefix $url "https:") -}}
+{{ if $isExternal }}
+<img src="https://icons.duckduckgo.com/ip3/{{ $parsedURL.Host }}.ico" style="display: inline; margin: 0 5px;" width=20 class="icon" >
+{{ else }}
+<img src="https://icons.duckduckgo.com/ip3/asterisk.lol.ico" style="display: inline; margin: 0 2px;" width=20 class="icon" >
+{{ end }}<a href='{{ $.Get "href"}}' style="color: var(--tw-prose-links)">:{{ $.Get "title" }}</a>
+{{- /* Trim EOF */ -}}
