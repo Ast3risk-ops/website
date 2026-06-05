@@ -27,32 +27,30 @@ If you wish to encrypt your message (I don't use keyservers):
 
  {{< icon "signal" >}} `@asterisk.02`
  
- {{< icon "matrix" >}} [`@ast3risk:matrix.org`](https://matrix.to/#/@ast3risk:matrix.org/)
+ {{< icon "matrix" >}} <a href="https://matrix.to/#/@ast3risk:matrix.org/"><code>@ast3risk:matrix.org</code></a>
 
 ## Microblogging
 
- {{< icon "mastodon" >}} [`@asterisk@social.linux.pizza`](https://social.linux.pizza/@asterisk)
+  [`@asterisk@social.linux.pizza`](https://social.linux.pizza/@asterisk)
 
 ## Git Forges
 
- {{< icon "github" >}} [`Ast3risk-ops`](https://github.com/Ast3risk-ops)
+  [`Ast3risk-ops`](https://github.com/Ast3risk-ops)
  
- {{< icon "gitlab" >}} [blendOS Gitlab](https://git.blendos.co/asterisk)
+   [blendOS Gitlab](https://git.blendos.co/asterisk)
 
 ## Videos
 
- {{< icon "youtube" >}} [`@ast3riskinc`](https://youtube.com/@ast3riskinc)
- 
- {{< icon "peertube" >}} [`asterisk@tube.asterisk.lol`](https://tube.asterisk.lol/c/asterisk/videos)
+  [`@ast3riskinc`](https://youtube.com/@ast3riskinc)
 
 ## Gaming
 
- {{< icon "steam" >}} [`ast3riskinc`](https://steamcommunity.com/id/ast3riskinc)
+  [`ast3riskinc`](https://steamcommunity.com/id/ast3riskinc)
  
- {{< icon "itch" >}} [`ast3risk.itch.io`](https://ast3risk.itch.io)
+  [`ast3risk.itch.io`](https://ast3risk.itch.io)
 
 
 ## Other
 
- {{< icon "internetarchive" >}} [`@ast3riskinc`](https://archive.org/details/@ast3riskinc)
+  [`@ast3riskinc`](https://archive.org/details/@ast3riskinc)
 </div>
