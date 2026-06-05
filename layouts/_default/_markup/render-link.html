@@ -31,9 +31,9 @@
 {{- $isExternal := or (strings.HasPrefix .Destination "http:") (strings.HasPrefix .Destination "https:") -}}
 {{- $newTab := and $forceNewTab $isExternal -}}
 {{ if $isExternal }}
-<img src="https://icons.duckduckgo.com/ip3/{{ $u.Host }}.ico" style="display: inline; margin: 0 5px;" width=20 class="icon">
+<img src="https://icons.duckduckgo.com/ip3/{{ $u.Host }}.ico" style="display: inline; margin: 0 2px;" width=20 class="icon">
 {{ else }}
-<img src="https://icons.duckduckgo.com/ip3/asterisk.lol.ico" style="display: inline; margin: 0 5px;" width=20 class="icon">
+<img src="https://icons.duckduckgo.com/ip3/asterisk.lol.ico" style="display: inline; margin: 0 2px;" width=20 class="icon">
 {{ end }}<a href="{{ $href }}" {{ with .Title }}title="{{ . }}"{{ end }}
   {{- if $newTab }} target="_blank" rel="noreferrer"{{ end }}>
   {{- .Text | safeHTML -}}
