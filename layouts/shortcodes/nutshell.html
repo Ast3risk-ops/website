@@ -3,8 +3,8 @@
 {{ $parsedURL := urls.Parse $url }}
 {{- $isExternal := or (strings.HasPrefix $url "http:") (strings.HasPrefix $url "https:") -}}
 {{ if $isExternal }}
-<img src="https://icons.duckduckgo.com/ip3/{{ $parsedURL.Host }}.ico" style="display: inline; margin: 0 2px;" width=20 class="icon" aria-hidden="true">
+<img src="https://icons.duckduckgo.com/ip3/{{ $parsedURL.Host }}.ico" style="display: inline; margin: 0 2px;" width=20 class="nozoom" aria-hidden="true">
 {{ else }}
-<img src="https://icons.duckduckgo.com/ip3/asterisk.lol.ico" style="display: inline; margin: 0 2px;" width=20 class="icon" aria-hidden="true">
+<img src="https://icons.duckduckgo.com/ip3/asterisk.lol.ico" style="display: inline; margin: 0 2px;" width=20 class="nozoom" aria-hidden="true">
 {{ end }}<a href='{{ $.Get "href"}}' style="color: var(--tw-prose-links)">:{{ $.Get "title" }}</a>
 {{- /* Trim EOF */ -}}
