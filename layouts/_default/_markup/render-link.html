@@ -35,7 +35,7 @@
 {{ else }}
 <img src="https://icons.duckduckgo.com/ip3/asterisk.lol.ico" style="display: inline; margin: 0 2px;" width=20 class="nozoom" aria-hidden="true">
 {{ end }}<a href="{{ $href }}" {{ with .Title }}title="{{ . }}"{{ end }}
-  {{- if $newTab }} target="_blank" rel="noreferrer"{{ end }}>
+  {{- if $newTab }} target="_blank" rel="noopener noreferrer"{{ end }}>
   {{- .Text | safeHTML -}}
 </a>
 {{- /* Trim EOF */ -}}
