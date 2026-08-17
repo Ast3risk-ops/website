@@ -59,6 +59,7 @@ showWordCount = false
 showZenMode = true
 heroStyle = "background"
 showSummary = false
+showReadingProgress = true
 
 [list]
 showHero = true
