@@ -20,7 +20,7 @@ showComments = false
 - [Trivalent](https://github.com/secureblue/Trivalent) on Linux, Edge with [topaz's policies](https://github.com/topaz8/windows-edge-policies) on Windows.
 - [Obsidian](https://obsidian.md) (notes)
 - [Fooyin](https://www.fooyin.org/) & [Jellyfin](https://jellyfin.org) (music, yes I keep all my music locally)
-- [Zed](https://zed.dev/)
+- [Zed](https://zed.dev/) with AI features disabled
 
 ## Frameworks
 
