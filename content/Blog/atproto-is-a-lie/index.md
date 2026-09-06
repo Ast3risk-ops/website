@@ -237,7 +237,7 @@ Another example of Bluesky's moderation is how the first post about an AI-genera
 
 ![A Bluesky account you control (@marisakabas.bsky.social) posted content or shared a link that contains non-consensual explicit material, which is in violation of our Community Guidelines. As a result of this violation, we have taken down your post,” an email Kabas received from Bluesky moderation reads. “We trust that you will understand the necessity of these measures and the gravity of the situation. Bluesky explicitly prohibits the sharing of non-consensual sexual media. You cannot use Bluesky to break the law or cause harm to others. All users must be treated with respect.](posts/bluesky/fuckyou.png "Thou shalt not criticize our Lord and Savior Donald J. Trump or the (former) Right Hand of God Elon Musk.")
 
-A longer and more detailed explanation of this was written up by [Nico Mara-McKay](https://scribe.rip/@plutopsyche/blueskys-ceo-meltdown-how-leadership-continues-to-fail-its-most-marginalized-users-8bfa7a8824b4).
+A longer and more detailed explanation of this was written up by [Nico Mara-McKay](https://medium.com/@plutopsyche/blueskys-ceo-meltdown-how-leadership-continues-to-fail-its-most-marginalized-users-8bfa7a8824b4).
 
 DMs are also hosted separately and aren't encrypted.
 
