@@ -1,3 +1,1 @@
-/.well-known/webfinger https://social.asterisk.lol/.well-known/webfinger
-/.well-known/host-meta https://social.asterisk.lol/.well-known/host-meta
-/.well-known/nodeinfo https://social.asterisk.lol/.well-known/nodeinfo
+/status https://social.linux.pizza/@asterisk
