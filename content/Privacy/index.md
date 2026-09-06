@@ -5,6 +5,7 @@ date = 2024-01-21T12:43:53-05:00
 draft = false
 showAuthor = false
 layout = 'simple'
+showComments = false
 +++
 
 {{< typeit

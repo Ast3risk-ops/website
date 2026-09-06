@@ -4,6 +4,7 @@ date = 2024-01-21T15:48:01-05:00
 draft = false
 description = "My content's licensing rules"
 layout = 'simple'
+showComments = false
 +++
 
 {{< typeit
