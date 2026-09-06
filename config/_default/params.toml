@@ -12,6 +12,7 @@ defaultBackgroundImage = "/gm_construct_ballz.jpg"
 
 [header]
 layout = "fixed"
+mobileMenuStyle = "dropdown"
 
 [footer]
 showMenu = true
@@ -76,6 +77,7 @@ groupByYear = true
 cardView = false
 cardViewScreenWidth = false
 constrainItemsWidth = false
+featureImageHover = true
 
 [sitemap]
 excludedKinds = [ "taxonomy", "term" ]
