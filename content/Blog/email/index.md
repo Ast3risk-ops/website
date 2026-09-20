@@ -5,6 +5,7 @@ draft = false
 type = 'post'
 description = "And a rabbit hole opened beneath it."
 tags = ['Personal Experience', 'Crypto', 'AI']
+mastodon = "https://social.linux.pizza/@asterisk/117305691050588211"
 +++
 
 <!--more-->
