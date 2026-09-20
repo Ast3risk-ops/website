@@ -3,7 +3,7 @@ title = 'I got an E-mail'
 date = 2026-09-20T10:21:37-04:00
 draft = false
 type = 'post'
-description = "I got an e-mail."
+description = "And a rabbit hole opened beneath it."
 tags = ['Personal Experience', 'Crypto', 'AI']
 +++
 
