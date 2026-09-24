@@ -43,6 +43,7 @@ showDateUpdated = true
 showAuthor = true
 showHero = true
 layoutBackgroundBlur = true
+# layoutBackgroundBlurStyle = "classic"
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = true
 showDraftLabel = true
@@ -78,6 +79,7 @@ cardView = false
 cardViewScreenWidth = false
 constrainItemsWidth = false
 featureImageHover = true
+# layoutBackgroundBlurStyle = "classic"
 
 [sitemap]
 excludedKinds = [ "taxonomy", "term" ]
@@ -91,6 +93,7 @@ showViews = false
 showLikes = false
 showTableOfContents = false
 cardView = true
+# layoutBackgroundBlurStyle = "classic"
 
 [term]
 showHero = true
@@ -102,6 +105,7 @@ showTableOfContents = true
 groupByYear = false
 cardView = true
 cardViewScreenWidth = false
+# layoutBackgroundBlurStyle = "classic"
 
 [firebase]
 
