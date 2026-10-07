@@ -43,7 +43,7 @@ showDateUpdated = true
 showAuthor = true
 showHero = true
 layoutBackgroundBlur = true
-# layoutBackgroundBlurStyle = "classic"
+layoutBackgroundBlurStyle = "classic"
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = true
 showDraftLabel = true
@@ -93,7 +93,7 @@ showViews = false
 showLikes = false
 showTableOfContents = false
 cardView = true
-# layoutBackgroundBlurStyle = "classic"
+layoutBackgroundBlurStyle = "classic"
 
 [term]
 showHero = true
@@ -105,7 +105,7 @@ showTableOfContents = true
 groupByYear = false
 cardView = true
 cardViewScreenWidth = false
-# layoutBackgroundBlurStyle = "classic"
+layoutBackgroundBlurStyle = "classic"
 
 [firebase]
 
