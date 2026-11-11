@@ -115,7 +115,7 @@ layoutBackgroundBlurStyle = "classic"
   websiteid = "03a18d89-9829-4a99-af23-833657902d3d"
   domain = "t.asterisk.lol"
   dataDomains = "asterisk.lol"
-  integrity = true
+#  integrity = true
 
 [buymeacoffee]
 
